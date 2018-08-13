@@ -1,0 +1,11 @@
+.header_logo{
+    width: 50%;
+}
+
+.header_inner{
+    display: flex;
+}
+
+.header_info_container{
+    /*display: inline-flex;*/
+}
