@@ -1,11 +1,73 @@
+html{
+
+}
+body{
+    font-size: 100%;
+    margin: auto;
+    position: absolute;
+    /*background-color: black;*/
+}
+
 .header_logo{
-    width: 50%;
+    border-radius: 50%;
+    left: 10%;
+    right: 10%;
 }
 
 .header_inner{
-    display: flex;
+    /*display: flex;*/
 }
 
+.header_title{
+    text-align: center;
+    white-space: nowrap;
+}
+
+.header_job{
+    text-align: center;
+    white-space: nowrap;
+}
 .header_info_container{
-    /*display: inline-flex;*/
+
+    font-family: Arial;
+    color: black;
+    text-align: center;
+}
+
+.section_header{
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+/*
+responsive for smart phone
+*/
+@media screen and (max-width: 280px) {
+    .header_logo{
+        width: 100%;
+    }
+    .header_info_container{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 281px) and (max-width: 450px) {
+    .header_logo{
+        width: 100%;
+    }
+    .header_info_container{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 800px) {
+    .header_logo{
+        width: 50%;
+        position: relative;
+        left: 25%;
+        right: 25%;
+    }
+    .header_info_container{
+        font-size: 2em;
+    }
 }
