@@ -5,17 +5,17 @@ body{
     font-size: 100%;
     margin: auto;
     position: absolute;
+    padding: 5%;
     /*background-color: black;*/
 }
 
 .header_logo{
     border-radius: 50%;
-    left: 10%;
-    right: 10%;
+
 }
 
 .header_inner{
-    /*display: flex;*/
+
 }
 
 .header_title{
@@ -44,6 +44,8 @@ responsive for smart phone
 */
 @media screen and (max-width: 280px) {
     .header_logo{
+        left: 10%;
+        right: 10%;
         width: 100%;
     }
     .header_info_container{
@@ -66,6 +68,8 @@ responsive for smart phone
 
 @media screen and (min-width: 281px) and (max-width: 450px) {
     .header_logo{
+        left: 10%;
+        right: 10%;
         width: 100%;
     }
     .header_info_container{
@@ -75,17 +79,20 @@ responsive for smart phone
         font-size: 1.4em;
     }
     .section_content_title{
-        font-size: 1.1em;
+        font-size: 1em;
         font-weight: bold;
     }
     .section_content_date{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .section_content_info{
-        font-size: 1.1em;
+        font-size: 1em;
     }
 }
 
+/*
+responsive for iPad
+*/
 @media screen and (min-width: 451px) and (max-width: 800px) {
     .header_logo{
         width: 50%;
@@ -94,6 +101,68 @@ responsive for smart phone
         right: 25%;
     }
     .header_info_container{
-        font-size: 2em;
+        font-size: 1.7em;
+    }
+    .section_header{
+        font-size: 1.6em;
+    }
+    .section_content_title{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .section_content_date{
+        font-size: 1.2em;
+    }
+    .section_content_info{
+        font-size: 1.2em;
+    }
+}
+
+/*
+responsive for Desktop
+*/
+@media screen and (min-width: 801px){
+    body{
+        display: flex;
+    }
+    .content{
+        padding: 5%;
+        /*display:flex;*/
+        /*flex-wrap: wrap;*/
+    }
+    .header_logo{
+        width: 50%;
+        position: relative;
+        left: 25%;
+        right: 25%;
+    }
+    .header{
+        /*background-color: yellow;*/
+        /*transform: translateY(50%);*/
+        /*margin-top: -50%;*/
+    }
+
+    .header_inner{
+        /*margin-top: -50%;*/
+        transform: translateY(20%);
+        height: 50%;
+        /*background-color: blue;*/
+    }
+    .header_info_container{
+        font-size: 1.8em;
+    }
+
+    .section_header{
+        font-size: 1.7em;
+    }
+    .section_content_title{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    .section_content_date{
+        font-size: 1.3em;
+    }
+    .section_content_info{
+        font-size: 1.3em;
     }
 }
