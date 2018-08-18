@@ -2,6 +2,10 @@
 responsive for smart phone
 */
 @media screen and (max-width: 280px) {
+    body{
+        flex-wrap: wrap;
+    }
+
     .header_inner{
         color: white;
         padding: 1%;
@@ -41,6 +45,10 @@ responsive for smart phone
 }
 
 @media screen and (min-width: 281px) and (max-width: 450px) {
+    body{
+        flex-wrap: wrap;
+    }
+
     .header_inner{
         color: white;
         padding: 3%;
@@ -83,6 +91,10 @@ responsive for smart phone
 responsive for iPad
 */
 @media screen and (min-width: 451px) and (max-width: 999px) {
+    body{
+        flex-wrap: wrap;
+    }
+
     .header_inner{
         color: white;
         padding: 3%;
@@ -124,10 +136,6 @@ responsive for iPad
 responsive for Desktop
 */
 @media screen and (min-width: 1000px){
-    body{
-        display: flex;
-    }
-
     .content{
         padding: 5%;
         border-top: 1px solid #c9c9c9;
@@ -142,7 +150,8 @@ responsive for Desktop
         margin: auto;
     }
     .header{
-        width: 50%;
+        width: 100%;
+        /*min-width: 360px;*/
     }
 
     .header_self_description{
