@@ -12,22 +12,28 @@ responsive for smart phone
         right: 10%;
         width: 100%;
     }
+
     .header_info_container{
         font-size: 1em;
     }
+
     .section_header{
         font-size: 0.9em;
     }
+
     .section_content_title{
         font-size: 0.8em;
         font-weight: bold;
     }
+
     .section_content_date{
         font-size: 0.8em;
     }
+
     .section_content_info{
         font-size: 0.8em;
     }
+
     .section_content_img_info{
         font-size: 0.7em;
         margin-left: 60px;
@@ -45,22 +51,28 @@ responsive for smart phone
         right: 10%;
         width: 100%;
     }
+
     .header_info_container{
         font-size: 1.5em;
     }
+
     .section_header{
         font-size: 1.4em;
     }
+
     .section_content_title{
         font-size: 1em;
         font-weight: bold;
     }
+
     .section_content_date{
         font-size: 1em;
     }
+
     .section_content_info{
         font-size: 1em;
     }
+
     .section_content_img_info{
         font-size: 0.9em;
         margin-left: 60px;
