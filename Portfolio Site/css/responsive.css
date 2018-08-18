@@ -1,0 +1,160 @@
+/*
+responsive for smart phone
+*/
+@media screen and (max-width: 280px) {
+    .header_inner{
+        color: white;
+        padding: 1%;
+    }
+
+    .header_logo{
+        left: 10%;
+        right: 10%;
+        width: 100%;
+    }
+    .header_info_container{
+        font-size: 1em;
+    }
+    .section_header{
+        font-size: 0.9em;
+    }
+    .section_content_title{
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    .section_content_date{
+        font-size: 0.8em;
+    }
+    .section_content_info{
+        font-size: 0.8em;
+    }
+    .section_content_img_info{
+        font-size: 0.7em;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width: 281px) and (max-width: 450px) {
+    .header_inner{
+        color: white;
+        padding: 3%;
+    }
+
+    .header_logo{
+        left: 10%;
+        right: 10%;
+        width: 100%;
+    }
+    .header_info_container{
+        font-size: 1.5em;
+    }
+    .section_header{
+        font-size: 1.4em;
+    }
+    .section_content_title{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .section_content_date{
+        font-size: 1em;
+    }
+    .section_content_info{
+        font-size: 1em;
+    }
+    .section_content_img_info{
+        font-size: 0.9em;
+        margin-left: 60px;
+    }
+}
+
+/*
+responsive for iPad
+*/
+@media screen and (min-width: 451px) and (max-width: 800px) {
+    .header_inner{
+        color: white;
+        padding: 3%;
+    }
+
+    .header_self_description{
+        font-size: 1.1em;
+    }
+
+    .header_logo{
+        width: 50%;
+        position: relative;
+        left: 25%;
+        right: 25%;
+    }
+    .header_info_container{
+        font-size: 1.7em;
+    }
+    .section_header{
+        font-size: 1.6em;
+    }
+    .section_content_title{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .section_content_date{
+        font-size: 1.2em;
+    }
+    .section_content_info{
+        font-size: 1.2em;
+    }
+    .section_content_img_info{
+        font-size: 0.9em;
+        margin-left: 60px;
+    }
+}
+
+/*
+responsive for Desktop
+*/
+@media screen and (min-width: 801px){
+    body{
+        display: flex;
+    }
+    .content{
+        padding: 5%;
+    }
+    .header_logo{
+        width: 100%;
+        position: relative;
+    }
+    .header{
+        width: 50%;
+    }
+
+    .header_self_description{
+        font-size: 1.2em;
+    }
+
+    .header_inner{
+        padding: 5%;
+        color: white;
+        transform: translateY(10%);
+        height: 50%;
+    }
+    .header_info_container{
+        font-size: 1.8em;
+    }
+
+    .section_header{
+        font-size: 1.7em;
+    }
+    .section_content_title{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    .section_content_date{
+        font-size: 1.3em;
+    }
+    .section_content_info{
+        font-size: 1.3em;
+    }
+    .section_content_img_info{
+        font-size: 1em;
+        margin-left: 60px;
+    }
+}
