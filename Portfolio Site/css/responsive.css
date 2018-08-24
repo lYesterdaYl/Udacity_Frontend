@@ -150,8 +150,8 @@ responsive for Desktop
         margin: auto;
     }
     .header{
-        width: 100%;
-        /*min-width: 360px;*/
+        width: 30%;
+        min-width: 360px;
     }
 
     .header_self_description{

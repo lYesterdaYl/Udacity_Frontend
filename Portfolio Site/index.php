@@ -1,3 +1,22 @@
+<?php
+
+include('../../../../system_files/inc.php');
+include('include/function.php');
+
+$ip = get_ip();
+$location = file_get_contents("http://ip.taobao.com/service/getIpInfo.php?ip=".$ip);
+$location = json_decode($location);
+$country = $location->data->country;
+$region = $location->data->region;
+$browser = get_browser();
+$os = get_os();
+$sql = "insert into info (ip, browser, os, country, region) VALUES (?,?,?,?,?)";
+$stmt = $mysqli->prepare($sql);
+$stmt->bind_param("sssss", $ip, $browser, $os, $country, $region);
+$stmt->execute();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,6 +27,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="icon" href="img/favicon.png">
     </head>
     <body>
         <header class="header">
@@ -42,7 +62,7 @@
 
                         <div class="section_content_date">
                             Sep 2014 - June 2017<br>
-                            Sep 2018 - June 2019<br>
+                            July 2018 - June 2019<br>
                         </div>
 
                         <div class="section_content_info">
@@ -51,6 +71,20 @@
 
                     </div>
 
+                    <div class="section_content">
+                        <div class="section_content_title">
+                            <br>Udacity
+                        </div>
+
+                        <div class="section_content_date">
+                            Aug 2018 - Present<br>
+                        </div>
+
+                        <div class="section_content_info">
+                            Front-End Web Developer Nanodegree Program<br>
+                        </div>
+
+                    </div>
 
                 </section>
 
@@ -112,7 +146,7 @@
                         <div class="section_content_info">
                             •	Developed and updated the Radio Frequency Identification(RFID) Fridge's code to work with both the Image Identification Fridge's                                hardware and RFID Fridge.<br>
                             •	Developed a debug system to record information from the Fridge payment procedure.<br>
-                            •	Skill: PHP, JavaScript, MySQL,Redis<br>
+                            •	Skill: PHP, JavaScript, MySQL, Redis, Laravel<br>
                         </div>
                     </div>
 
@@ -148,7 +182,7 @@
                             •	Designed and developed a Wechat HTML5 mini-program base application that allows customers to buy products from the                                      fridge with just 3 simple steps: open, take and go.<br>
                             •	Data storage method involving Memcache and SQL.<br>
                             •	Backend APIs are written by PHP to interface Memcache and SQL database.<br>
-                            •	Skill: PHP, JavaScript, MySQL, Memcache, Redis<br>
+                            •	Skill: PHP, JavaScript, MySQL, Memcache, Redis, Laravel<br>
                         </div>
                         <div class="section_content_img">
                             <img src="img/webox.png" alt="image of webox">
