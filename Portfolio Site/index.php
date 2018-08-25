@@ -10,10 +10,14 @@ $country = $location->data->country;
 $region = $location->data->region;
 $browser = get_browser();
 $os = get_os();
-$sql = "insert into info (ip, browser, os, country, region) VALUES (?,?,?,?,?)";
-$stmt = $mysqli->prepare($sql);
-$stmt->bind_param("sssss", $ip, $browser, $os, $country, $region);
-$stmt->execute();
+
+if($ip != "192.168.1.1"){
+    $sql = "insert into info (ip, browser, os, country, region) VALUES (?,?,?,?,?)";
+    $stmt = $mysqli->prepare($sql);
+    $stmt->bind_param("sssss", $ip, $browser, $os, $country, $region);
+    $stmt->execute();
+}
+
 ?>
 
 
