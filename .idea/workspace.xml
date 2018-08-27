@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/README.md" afterPath="$PROJECT_DIR$/Memory Game/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,14 +17,14 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio Site/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2907">
+            <state relative-caret-position="0">
               <caret line="153" column="25" lean-forward="false" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio Site/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -31,6 +32,19 @@
               <folding>
                 <marker date="1535144109379" expanded="true" signature="376:446" ph="insert into info... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -107,6 +121,7 @@
         <option value="$USER_HOME$/Desktop/inc.php" />
         <option value="$PROJECT_DIR$/Portfolio Site/include/function.php" />
         <option value="$PROJECT_DIR$/Portfolio Site/index.php" />
+        <option value="$PROJECT_DIR$/Memory Game/README.md" />
       </list>
     </option>
   </component>
@@ -145,6 +160,11 @@
             <path>
               <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udacity_Frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udacity_Frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Memory Game" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
@@ -244,15 +264,16 @@
       <workItem from="1534905676172" duration="1373000" />
       <workItem from="1535092123161" duration="7006000" />
       <workItem from="1535143125068" duration="1230000" />
-      <workItem from="1535412649787" duration="36000" />
+      <workItem from="1535412649787" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71684000" />
+    <option name="totallyTimeSpent" value="72276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21065183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -286,8 +307,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Start/main.css" />
-    <entry file="file://$PROJECT_DIR$/Home Town App/main.css" />
     <entry file="file://$PROJECT_DIR$/Home Town App/responsive.css" />
     <entry file="file://$PROJECT_DIR$/Portfolio Site/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -381,7 +400,7 @@
     <entry file="file://$PROJECT_DIR$/Portfolio Site/index.html" />
     <entry file="file://$PROJECT_DIR$/Portfolio Site/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2907">
+        <state relative-caret-position="0">
           <caret line="153" column="25" lean-forward="false" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="25" />
           <folding />
         </state>
@@ -418,6 +437,28 @@
           <folding>
             <marker date="1535144109379" expanded="true" signature="376:446" ph="insert into info... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
