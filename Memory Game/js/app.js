@@ -5,6 +5,7 @@ let card_icon_list = ["fa-500px", "fa-address-book", "fa-address-book-o", "fa-ad
 
 let chose_card = [];
 let moves = 0;
+let match = 0;
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
@@ -12,15 +13,8 @@ let moves = 0;
  *   - add each card's HTML to the page
  */
 
+let card_list = create_icon_array(card_icon_list);
 
-//create a random size 16 array with 8 different icons.
-card_icon_list = shuffle(card_icon_list);
-card_list = [];
-for(let i = 0;i < 2;i++){
-    for(let j = 0;j < 8;j++){
-        card_list.push(card_icon_list[j]);
-    }
-}
 
 //create ul for future append to the page
 const card_ul = document.createElement('ul');
@@ -54,47 +48,48 @@ document.querySelector('.container').appendChild(card_ul);
 
 
 async function click_card(event){
-    // console.log(chose_card);
-    // console.log(event);
-    // console.log(event.target.className);
-    // console.log(class_names);
-    if (chose_card.length == 0){
-        chose_card.push(event.target.lastChild.className);
-        chose_card.push("opened");
-        event.target.id = "opened";
-        event.target.className = 'card open show';
+    if (event.target.id !== 'match') {
 
-    }
-    else{
-        moves++;
-        let move = document.querySelector('.moves');
-        move.textContent = moves;
-        let opened = document.querySelector('#opened');
-        console.log("jquery",$(opened));
-        event.target.className = 'card open show';
-        // console.log("first class = ", chose_card[0]);
-        // console.log("second class = ", event.target.lastChild.className);
+        if (chose_card.length === 0) {
+            chose_card.push(event.target.lastChild.className);
+            chose_card.push("opened");
+            event.target.id = "opened";
+            event.target.className = 'card open show';
 
-        if (chose_card[0] == event.target.lastChild.className && event.target.id != chose_card[1]){
-            // let opened = document.querySelector('#opened');
-            $(opened).effect('bounce');
-            $(event.target).effect('bounce');
-            opened.className = 'card match';
-            event.target.className = 'card match';
-            opened.id = '';
-            chose_card = [];
         }
-        else{
-            // let opened = document.querySelector('#opened');
-            $(opened).effect('shake');
-            $(event.target).effect('shake');
-            await sleep(500);
-            opened.id = '';
-            opened.className = 'card';
-            event.target.className = 'card';
-            chose_card = [];
-        }
+        else if (chose_card.length === 2) {
+            moves++;
+            let move = document.querySelector('.moves');
+            move.textContent = moves;
+            let opened = document.querySelector('#opened');
+            console.log("jquery", $(opened));
+            event.target.className = 'card open show';
 
+            if (chose_card[0] === event.target.lastChild.className && event.target.id !== chose_card[1]) {
+                // let opened = document.querySelector('#opened');
+                $(opened).effect('bounce');
+                $(event.target).effect('bounce');
+                opened.className = 'card match';
+                event.target.className = 'card match';
+                opened.id = 'match';
+                event.target.id = 'match';
+                chose_card = [];
+                match++;
+                let performance = check_performance(moves);
+
+            }
+            else {
+                // let opened = document.querySelector('#opened');
+                $(opened).effect('shake');
+                $(event.target).effect('shake');
+                await sleep(500);
+                opened.id = '';
+                opened.className = 'card';
+                event.target.className = 'card';
+                chose_card = [];
+            }
+
+        }
     }
 }
 
@@ -117,4 +112,29 @@ function shuffle(array) {
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+//create a random size 16 array with 8 different icons.
+function create_icon_array(card_icon_list) {
+    card_icon_list = shuffle(card_icon_list);
+    let card_list = [];
+    for(let i = 0;i < 2;i++){
+        for(let j = 0;j < 8;j++){
+            card_list.push(card_icon_list[j]);
+        }
+    }
+    return card_list;
+}
+
+//check how player is performed in the game.
+function check_performance(step) {
+    if (step <= 20){
+        return 3;
+    }
+    else if (step <= 30){
+        return 2;
+    }
+    else if (step > 40){
+        return 1;
+    }
 }
