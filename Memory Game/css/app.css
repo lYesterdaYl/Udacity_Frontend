@@ -89,18 +89,27 @@ h1 {
     text-align: left;
     width: 345px;
     margin-bottom: 10px;
+    display: inline-block;
+
+    /*display: inline-flex;*/
+}
+
+.moves{
+    margin-left: 2em;
 }
 
 .score-panel .stars {
     margin: 0;
     padding: 0;
-    display: inline-block;
     margin: 0 5px 0 0;
 }
 
+.stars li{
+    float: left;
+
+}
 .score-panel .stars li {
     list-style: none;
-    display: inline-block;
 }
 
 .score-panel .restart {

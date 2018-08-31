@@ -62,7 +62,6 @@ async function click_card(event){
             let move = document.querySelector('.moves');
             move.textContent = moves;
             let opened = document.querySelector('#opened');
-            console.log("jquery", $(opened));
             event.target.className = 'card open show';
 
             if (chose_card[0] === event.target.lastChild.className && event.target.id !== chose_card[1]) {
@@ -75,7 +74,7 @@ async function click_card(event){
                 event.target.id = 'match';
                 chose_card = [];
                 match++;
-                let performance = check_performance(moves);
+
 
             }
             else {
@@ -89,6 +88,10 @@ async function click_card(event){
                 chose_card = [];
             }
 
+            let performance = check_performance(moves);
+            console.log("moves = ", moves);
+            console.log("performance = ", performance);
+            change_star(performance);
         }
     }
 }
@@ -128,13 +131,38 @@ function create_icon_array(card_icon_list) {
 
 //check how player is performed in the game.
 function check_performance(step) {
-    if (step <= 20){
+    if (step <= 5){
         return 3;
     }
-    else if (step <= 30){
+    else if (step > 5 && step <= 30){
         return 2;
     }
     else if (step > 40){
         return 1;
     }
+}
+
+function change_star(count) {
+    let star = document.querySelector('.stars');
+
+    for (let i = 0;i < 3; i++){
+        star.removeChild(star.lastElementChild);
+    }
+
+    for (let i = 0;i < count; i++){
+        let new_star = document.createElement('li');
+        let new_star_i = document.createElement('i');
+        new_star_i.className += 'fa fa-star';
+        new_star.appendChild(new_star_i);
+        star.appendChild(new_star);
+    }
+    //
+    for (let i = 0;i < 3- count; i++){
+        let new_star = document.createElement('li');
+        let new_star_i = document.createElement('i');
+        new_star_i.className += 'fa fa-star-o';
+        new_star.appendChild(new_star_i);
+        star.appendChild(new_star);
+    }
+
 }
