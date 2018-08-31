@@ -1,0 +1,36 @@
+/*
+responsive for smart phone
+*/
+@media screen and (max-width: 280px) {
+
+}
+
+
+@media screen and (min-width: 281px) and (max-width: 450px) {
+    body{
+        width: 80%;
+    }
+}
+
+/*
+responsive for iPad
+*/
+@media screen and (min-width: 451px) and (max-width: 999px) {
+    .container{
+
+    }
+    .deck{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        width: 25%;
+    }
+}
+
+/*
+responsive for Desktop
+*/
+@media screen and (min-width: 1000px){
+
+}

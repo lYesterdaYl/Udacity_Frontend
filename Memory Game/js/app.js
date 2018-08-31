@@ -6,6 +6,7 @@ let card_icon_list = ["fa-500px", "fa-address-book", "fa-address-book-o", "fa-ad
 let chose_card = [];
 let moves = 0;
 let match = 0;
+let current_onclick = 0;
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
@@ -15,24 +16,10 @@ let match = 0;
 
 let card_list = create_icon_array(card_icon_list);
 
+create_game(card_list);
 
-//create ul for future append to the page
-const card_ul = document.createElement('ul');
-card_ul.className += 'deck';
 
-for(let i = 0; i < 16;i++){
-    const new_card = document.createElement('li');
-    new_card.addEventListener('click', click_card);
-    new_card.className += 'card';
 
-    const new_card_sub = document.createElement('i');
-    new_card_sub.className += 'fa '+ card_list[i];
-
-    new_card.appendChild(new_card_sub);
-    card_ul.appendChild(new_card);
-
-}
-document.querySelector('.container').appendChild(card_ul);
 
 /*
  * set up the event listener for a card. If a card is clicked:
@@ -45,9 +32,31 @@ document.querySelector('.container').appendChild(card_ul);
  *    + if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
  */
 
+//create ul for future append to the page
+function create_game(card_list) {
+    const reset_button = document.querySelector('.restart');
+    reset_button.addEventListener('click', reset);
 
+    const card_ul = document.createElement('ul');
+    card_ul.className += 'deck';
+
+    for(let i = 0; i < 16;i++){
+        const new_card = document.createElement('li');
+        new_card.addEventListener('click', click_card);
+        new_card.className += 'card';
+
+        const new_card_sub = document.createElement('i');
+        new_card_sub.className += 'fa '+ card_list[i];
+
+        new_card.appendChild(new_card_sub);
+        card_ul.appendChild(new_card);
+
+    }
+    document.querySelector('.container').appendChild(card_ul);
+}
 
 async function click_card(event){
+    current_onclick++;
     if (event.target.id !== 'match') {
 
         if (chose_card.length === 0) {
@@ -57,14 +66,14 @@ async function click_card(event){
             event.target.className = 'card open show';
 
         }
-        else if (chose_card.length === 2) {
+        else if (chose_card.length === 2 && current_onclick === 2) {
             moves++;
-            let move = document.querySelector('.moves');
+            const move = document.querySelector('.moves');
             move.textContent = moves;
-            let opened = document.querySelector('#opened');
+            const opened = document.querySelector('#opened');
             event.target.className = 'card open show';
 
-            if (chose_card[0] === event.target.lastChild.className && event.target.id !== chose_card[1]) {
+            if (chose_card[0] == event.target.lastChild.className && event.target.id != chose_card[1]) {
                 // let opened = document.querySelector('#opened');
                 $(opened).effect('bounce');
                 $(event.target).effect('bounce');
@@ -78,7 +87,6 @@ async function click_card(event){
 
             }
             else {
-                // let opened = document.querySelector('#opened');
                 $(opened).effect('shake');
                 $(event.target).effect('shake');
                 await sleep(500);
@@ -86,17 +94,17 @@ async function click_card(event){
                 opened.className = 'card';
                 event.target.className = 'card';
                 chose_card = [];
+
             }
 
             let performance = check_performance(moves);
             console.log("moves = ", moves);
             console.log("performance = ", performance);
             change_star(performance);
+            current_onclick = 0;
         }
     }
 }
-
-
 
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
@@ -126,7 +134,7 @@ function create_icon_array(card_icon_list) {
             card_list.push(card_icon_list[j]);
         }
     }
-    return card_list;
+    return shuffle(card_list);
 }
 
 //check how player is performed in the game.
@@ -143,26 +151,41 @@ function check_performance(step) {
 }
 
 function change_star(count) {
-    let star = document.querySelector('.stars');
+    const star = document.querySelector('.stars');
 
     for (let i = 0;i < 3; i++){
         star.removeChild(star.lastElementChild);
     }
 
     for (let i = 0;i < count; i++){
-        let new_star = document.createElement('li');
-        let new_star_i = document.createElement('i');
+        const new_star = document.createElement('li');
+        const new_star_i = document.createElement('i');
         new_star_i.className += 'fa fa-star';
         new_star.appendChild(new_star_i);
         star.appendChild(new_star);
     }
     //
     for (let i = 0;i < 3- count; i++){
-        let new_star = document.createElement('li');
-        let new_star_i = document.createElement('i');
+        const new_star = document.createElement('li');
+        const new_star_i = document.createElement('i');
         new_star_i.className += 'fa fa-star-o';
         new_star.appendChild(new_star_i);
         star.appendChild(new_star);
     }
 
+}
+
+function reset() {
+    chose_card = [];
+    moves = 0;
+    match = 0;
+
+    const gamepad = document.querySelector('.container');
+    gamepad.removeChild(gamepad.lastChild);
+
+    const move = document.querySelector('.moves');
+    move.textContent = moves;
+
+    card_list = create_icon_array(card_icon_list);
+    create_game(card_list);
 }
