@@ -56,9 +56,9 @@ function create_game(card_list) {
 }
 
 async function click_card(event){
-    current_onclick++;
-    if (event.target.id !== 'match') {
-
+    if (event.target.id !== 'match' && event.target.id !== 'opened') {
+        current_onclick++;
+        console.log()
         if (chose_card.length === 0) {
             chose_card.push(event.target.lastChild.className);
             chose_card.push("opened");

@@ -7,8 +7,13 @@ responsive for smart phone
 
 
 @media screen and (min-width: 281px) and (max-width: 450px) {
-    body{
-        width: 80%;
+    .deck{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card{
+        width: 25%;
     }
 }
 
@@ -19,12 +24,16 @@ responsive for iPad
     .container{
 
     }
+
     .deck{
+        /*width: 80%;*/
         margin-left: auto;
         margin-right: auto;
     }
-    .card{
-        width: 25%;
+
+    .deck .card{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
