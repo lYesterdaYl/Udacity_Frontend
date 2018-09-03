@@ -2,7 +2,26 @@
 responsive for smart phone
 */
 @media screen and (max-width: 280px) {
+    header{
+        text-align: center;
+    }
+    .container{
 
+    }
+
+    .deck{
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+
+    .card{
+
+    }
+
+    .deck .card{
+        width: 23%;
+    }
 }
 
 
@@ -15,9 +34,9 @@ responsive for smart phone
     }
 
     .deck{
-        width: 80%;
-        left: 10%;
-        right: 10%;
+        width: 90%;
+        left: 5%;
+        right: 5%;
     }
 
     .card{

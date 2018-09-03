@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Memory Game/css/app.css" afterPath="$PROJECT_DIR$/Memory Game/css/app.css" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/css/responsive.css" afterPath="$PROJECT_DIR$/Memory Game/css/responsive.css" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/index.html" afterPath="$PROJECT_DIR$/Memory Game/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="606">
+              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -46,8 +48,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Memory Game/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="105" column="21" lean-forward="false" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+            <state relative-caret-position="454">
+              <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -56,8 +58,8 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="-409">
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -66,7 +68,7 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="356">
               <caret line="206" column="20" lean-forward="true" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -114,8 +116,8 @@
       <find>inh</find>
       <find>box-sizing</find>
       <find>reset</find>
-      <find>moves</find>
       <find>height</find>
+      <find>moves</find>
       <find>after</find>
     </findStrings>
   </component>
@@ -140,9 +142,9 @@
         <option value="$PROJECT_DIR$/Portfolio Site/index.php" />
         <option value="$PROJECT_DIR$/Memory Game/README.md" />
         <option value="$PROJECT_DIR$/Memory Game/backup.txt" />
-        <option value="$PROJECT_DIR$/Memory Game/css/responsive.css" />
-        <option value="$PROJECT_DIR$/Memory Game/index.html" />
         <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
+        <option value="$PROJECT_DIR$/Memory Game/index.html" />
+        <option value="$PROJECT_DIR$/Memory Game/css/responsive.css" />
         <option value="$PROJECT_DIR$/Memory Game/css/app.css" />
       </list>
     </option>
@@ -314,12 +316,12 @@
       <workItem from="1535661249661" duration="8774000" />
       <workItem from="1535691721652" duration="10068000" />
       <workItem from="1535784353717" duration="1146000" />
-      <workItem from="1535937616042" duration="15718000" />
+      <workItem from="1535937616042" duration="16666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130440000" />
+    <option name="totallyTimeSpent" value="131388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -512,7 +514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="356">
           <caret line="206" column="20" lean-forward="true" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -522,24 +524,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="-409">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="606">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="105" column="21" lean-forward="false" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        <state relative-caret-position="454">
+          <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
           <folding />
         </state>
       </provider>
