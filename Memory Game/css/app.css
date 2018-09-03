@@ -91,13 +91,19 @@ h1 {
     text-align: left;
     width: 345px;
     margin-bottom: 10px;
-    display: inline-block;
+    /*display: inline-block;*/
 
-    /*display: inline-flex;*/
+    display: flex;
 }
 
 .moves{
     margin-left: 2em;
+    margin-right: 0.3em;
+}
+
+.timer{
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .score-panel .stars {
