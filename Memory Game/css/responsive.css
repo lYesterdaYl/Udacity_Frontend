@@ -5,9 +5,6 @@ responsive for smart phone
     header{
         text-align: center;
     }
-    .container{
-
-    }
 
     .deck{
         width: 90%;
@@ -22,15 +19,20 @@ responsive for smart phone
     .deck .card{
         width: 23%;
     }
+
+    .modal-title{
+        font-size: 1.5em;
+    }
+
+    .play_again_button{
+        font-size: 1.3em;
+    }
 }
 
 
 @media screen and (min-width: 281px) and (max-width: 450px) {
     header{
         text-align: center;
-    }
-    .container{
-
     }
 
     .deck{
@@ -48,6 +50,7 @@ responsive for smart phone
     }
 
     .modal-content{
+        margin-top: 30%;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -59,9 +62,6 @@ responsive for iPad
 @media screen and (min-width: 451px) and (max-width: 999px) {
     header{
         text-align: center;
-    }
-    .container{
-
     }
 
     .deck{
@@ -79,6 +79,7 @@ responsive for iPad
     }
 
     .modal-content{
+        margin-top: 40%;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -88,5 +89,27 @@ responsive for iPad
 responsive for Desktop
 */
 @media screen and (min-width: 1000px){
+    header{
+        text-align: center;
+    }
 
+    .deck{
+        width: 70%;
+        left: 15%;
+        right: 15%;
+    }
+
+    .card{
+
+    }
+
+    .deck .card{
+        width: 23%;
+    }
+
+    .modal-content{
+        margin-top: 40%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
