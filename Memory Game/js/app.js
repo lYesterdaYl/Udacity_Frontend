@@ -9,6 +9,9 @@ let chose_card = [];
 let moves = 0;
 let match = 0;
 let current_onclick = 0;
+
+let timer_status = false;
+let time = 0;
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
@@ -20,7 +23,6 @@ let card_list = create_icon_array(card_icon_list);
 
 create_game(card_list);
 get_current_width();
-
 
 
 /*
@@ -59,6 +61,10 @@ function create_game(card_list) {
 
 //card click event
 async function click_card(event){
+    if (timer_status == false){
+        let time = setInterval("update_time()", 1000);
+        timer_status = true;
+    }
     if (event.target.id !== 'match' && event.target.id !== 'opened') {
         current_onclick++;
         if (chose_card.length === 0) {
@@ -205,6 +211,21 @@ function check_if_win() {
     }
 }
 
+//update the timer on the page
+function update_time() {
+    time++;
+    let second = time;
+    var hours   = Math.floor(second / 3600);
+    var minutes = Math.floor((second - (hours * 3600)) / 60);
+    var seconds = second - (hours * 3600) - (minutes * 60);
+
+    if (hours   < 10) {hours   = "0"+hours;}
+    if (minutes < 10) {minutes = "0"+minutes;}
+    if (seconds < 10) {seconds = "0"+seconds;}
+
+    let timer = document.querySelector('.timer');
+    timer.textContent = hours+':'+minutes+':'+seconds;
+}
 //arrage the height of the deck to equal to its width
 function get_current_width() {
     let deck = document.getElementsByClassName('deck');
