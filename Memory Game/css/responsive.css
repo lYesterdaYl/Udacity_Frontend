@@ -46,6 +46,11 @@ responsive for smart phone
     .deck .card{
         width: 23%;
     }
+
+    .modal-content{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
 /*
@@ -71,6 +76,11 @@ responsive for iPad
 
     .deck .card{
         width: 23%;
+    }
+
+    .modal-content{
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 

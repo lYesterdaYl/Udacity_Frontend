@@ -131,3 +131,24 @@ h1 {
     height: 100%;
 
 }
+
+.modal-title{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.modal-content{
+    margin-top: 50%;
+}
+
+.modal-body{
+    font-size: 1.3em;
+}
+
+.modal-footer{
+    text-align: center;
+}
+
+.play_again_button{
+    font-size: 2em;
+}
