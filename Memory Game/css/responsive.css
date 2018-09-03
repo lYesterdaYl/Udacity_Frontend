@@ -7,13 +7,25 @@ responsive for smart phone
 
 
 @media screen and (min-width: 281px) and (max-width: 450px) {
+    header{
+        text-align: center;
+    }
+    .container{
+
+    }
+
     .deck{
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 80%;
+        left: 10%;
+        right: 10%;
     }
 
     .card{
-        width: 25%;
+
+    }
+
+    .deck .card{
+        width: 23%;
     }
 }
 
@@ -21,19 +33,25 @@ responsive for smart phone
 responsive for iPad
 */
 @media screen and (min-width: 451px) and (max-width: 999px) {
+    header{
+        text-align: center;
+    }
     .container{
 
     }
 
     .deck{
-        /*width: 80%;*/
-        margin-left: auto;
-        margin-right: auto;
+        width: 80%;
+        left: 10%;
+        right: 10%;
+    }
+
+    .card{
+
     }
 
     .deck .card{
-        margin-left: auto;
-        margin-right: auto;
+        width: 23%;
     }
 }
 
