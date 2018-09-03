@@ -71,7 +71,7 @@ async function click_card(event){
             chose_card.push(event.target.lastChild.className);
             chose_card.push("opened");
             event.target.id = "opened";
-            event.target.className = 'card open show';
+            event.target.className = 'card open show_card';
 
         }
         else if (chose_card.length === 2 && current_onclick === 2) {
@@ -79,7 +79,7 @@ async function click_card(event){
             const move = document.querySelector('.moves');
             move.textContent = moves;
             const opened = document.querySelector('#opened');
-            event.target.className = 'card open show';
+            event.target.className = 'card open show_card';
 
             if (chose_card[0] == event.target.lastChild.className && event.target.id != chose_card[1]) {
                 // let opened = document.querySelector('#opened');
@@ -113,6 +113,10 @@ async function click_card(event){
         }
     }
     console.log(check_if_win());
+    if (check_if_win()){
+        update_win_stats()
+        $("#modal").modal();
+    }
 }
 
 // Shuffle function from http://stackoverflow.com/a/2450976
@@ -211,6 +215,17 @@ function check_if_win() {
     }
 }
 
+function update_win_stats() {
+    const win_move = document.querySelector('.win_move');
+    win_move.textContent = moves;
+
+    const win_time = document.querySelector('.win_time');
+    win_time.textContent = time;
+
+    const win_star = document.querySelector('.win_star');
+    win_star.textContent = check_performance(moves);
+}
+
 //update the timer on the page
 function update_time() {
     time++;
@@ -226,6 +241,7 @@ function update_time() {
     let timer = document.querySelector('.timer');
     timer.textContent = hours+':'+minutes+':'+seconds;
 }
+
 //arrage the height of the deck to equal to its width
 function get_current_width() {
     let deck = document.getElementsByClassName('deck');

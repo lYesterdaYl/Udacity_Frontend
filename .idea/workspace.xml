@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Memory Game/css/app.css" afterPath="$PROJECT_DIR$/Memory Game/css/app.css" />
-      <change beforePath="$PROJECT_DIR$/Memory Game/css/responsive.css" afterPath="$PROJECT_DIR$/Memory Game/css/responsive.css" />
       <change beforePath="$PROJECT_DIR$/Memory Game/index.html" afterPath="$PROJECT_DIR$/Memory Game/index.html" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/js/app.js" afterPath="$PROJECT_DIR$/Memory Game/js/app.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio Site/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
+            <state relative-caret-position="2736">
               <caret line="144" column="5" lean-forward="true" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
               <folding />
             </state>
@@ -38,18 +39,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="-57">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/下载/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="4" column="117627" lean-forward="false" selection-start-line="4" selection-start-column="117623" selection-end-line="4" selection-end-column="117627" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+            <state relative-caret-position="574">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -58,18 +69,18 @@
       <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-409">
+            <state relative-caret-position="161">
               <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="206" column="20" lean-forward="true" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
+            <state relative-caret-position="375">
+              <caret line="117" column="28" lean-forward="true" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -89,9 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>descri</find>
-      <find>latest</find>
-      <find>news__more</find>
       <find>news__title</find>
       <find>footer</find>
       <find>section_content_logo</find>
@@ -105,7 +113,6 @@
       <find>text</find>
       <find>fa</find>
       <find>console</find>
-      <find>match</find>
       <find>move</find>
       <find>star1</find>
       <find>star</find>
@@ -116,9 +123,13 @@
       <find>inh</find>
       <find>box-sizing</find>
       <find>reset</find>
-      <find>height</find>
       <find>moves</find>
+      <find>height</find>
+      <find>open</find>
+      <find>check_perfor</find>
       <find>after</find>
+      <find>match</find>
+      <find>show</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,10 +153,10 @@
         <option value="$PROJECT_DIR$/Portfolio Site/index.php" />
         <option value="$PROJECT_DIR$/Memory Game/README.md" />
         <option value="$PROJECT_DIR$/Memory Game/backup.txt" />
-        <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
-        <option value="$PROJECT_DIR$/Memory Game/index.html" />
         <option value="$PROJECT_DIR$/Memory Game/css/responsive.css" />
+        <option value="$PROJECT_DIR$/Memory Game/index.html" />
         <option value="$PROJECT_DIR$/Memory Game/css/app.css" />
+        <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
       </list>
     </option>
   </component>
@@ -316,12 +327,12 @@
       <workItem from="1535661249661" duration="8774000" />
       <workItem from="1535691721652" duration="10068000" />
       <workItem from="1535784353717" duration="1146000" />
-      <workItem from="1535937616042" duration="16666000" />
+      <workItem from="1535937616042" duration="23033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131388000" />
+    <option name="totallyTimeSpent" value="137755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -361,8 +372,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Home Town App/main.css" />
-    <entry file="file://$PROJECT_DIR$/Home Town App/responsive.css" />
     <entry file="file://$PROJECT_DIR$/Home Town App/final.css" />
     <entry file="file://$PROJECT_DIR$/Portfolio Site/index.html" />
     <entry file="file://$PROJECT_DIR$/Home Town App/index.html" />
@@ -493,14 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio Site/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="144" column="5" lean-forward="true" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -512,37 +513,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
+    <entry file="file://$PROJECT_DIR$/Portfolio Site/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="206" column="20" lean-forward="true" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="2736">
+          <caret line="144" column="5" lean-forward="true" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
+        <state relative-caret-position="161">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
+    <entry file="file://$USER_HOME$/Desktop/下载/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        <state relative-caret-position="-2928">
+          <caret line="3" column="6932" lean-forward="false" selection-start-line="3" selection-start-column="6931" selection-end-line="3" selection-end-column="6932" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+        <state relative-caret-position="574">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/下载/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="4" column="117627" lean-forward="false" selection-start-line="4" selection-start-column="117623" selection-end-line="4" selection-end-column="117627" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="117" column="28" lean-forward="true" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

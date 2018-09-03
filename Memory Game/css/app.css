@@ -73,7 +73,7 @@ h1 {
     cursor: default;
 }
 
-.deck .card.show {
+.deck .card.show_card {
     font-size: 33px;
 }
 
@@ -121,4 +121,13 @@ h1 {
 .score-panel .restart {
     float: right;
     cursor: pointer;
+}
+
+.modal{
+    top: 0;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
 }
