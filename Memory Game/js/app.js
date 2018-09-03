@@ -57,6 +57,7 @@ function create_game(card_list) {
     document.querySelector('.container').appendChild(card_ul);
 }
 
+//card click event
 async function click_card(event){
     if (event.target.id !== 'match' && event.target.id !== 'opened') {
         current_onclick++;
@@ -152,6 +153,7 @@ function check_performance(step) {
     }
 }
 
+//change the star on the page with the count arg
 function change_star(count) {
     const star = document.querySelector('.stars');
 
@@ -177,6 +179,7 @@ function change_star(count) {
 
 }
 
+//reset the game
 function reset() {
     chose_card = [];
     moves = 0;
@@ -202,6 +205,7 @@ function check_if_win() {
     }
 }
 
+//arrage the height of the deck to equal to its width
 function get_current_width() {
     let deck = document.getElementsByClassName('deck');
     let deck_width = deck[0].clientWidth;

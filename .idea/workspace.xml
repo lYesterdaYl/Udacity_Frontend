@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Memory Game/css/app.css" afterPath="$PROJECT_DIR$/Memory Game/css/app.css" />
-      <change beforePath="$PROJECT_DIR$/Memory Game/css/responsive.css" afterPath="$PROJECT_DIR$/Memory Game/css/responsive.css" />
       <change beforePath="$PROJECT_DIR$/Memory Game/js/app.js" afterPath="$PROJECT_DIR$/Memory Game/js/app.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,8 +76,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="149" column="22" lean-forward="false" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+            <state relative-caret-position="489">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -327,12 +324,12 @@
       <workItem from="1535661249661" duration="8774000" />
       <workItem from="1535691721652" duration="10068000" />
       <workItem from="1535784353717" duration="1146000" />
-      <workItem from="1535937616042" duration="11594000" />
+      <workItem from="1535937616042" duration="12290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126316000" />
+    <option name="totallyTimeSpent" value="127012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -539,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="149" column="22" lean-forward="false" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+        <state relative-caret-position="489">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
