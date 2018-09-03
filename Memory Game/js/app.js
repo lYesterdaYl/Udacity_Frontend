@@ -62,7 +62,7 @@ function create_game(card_list) {
 //card click event
 async function click_card(event){
     if (timer_status == false){
-        let time = setInterval("update_time()", 1000);
+        window.$time = setInterval("update_time()", 1000);
         timer_status = true;
     }
     if (event.target.id !== 'match' && event.target.id !== 'opened') {
@@ -194,6 +194,12 @@ function reset() {
     chose_card = [];
     moves = 0;
     match = 0;
+    time = 0
+    clearInterval(window.$time);
+    timer_status = false;
+
+    let timer = document.querySelector('.timer');
+    timer.textContent = '00:00:00';
 
     const gamepad = document.querySelector('.container');
     gamepad.removeChild(gamepad.lastChild);
