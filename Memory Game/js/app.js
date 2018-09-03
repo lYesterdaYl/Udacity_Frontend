@@ -230,6 +230,9 @@ function update_win_stats() {
 
     const win_star = document.querySelector('.win_star');
     win_star.textContent = check_performance(moves);
+
+    const play_again_button = document.querySelector('.play_again_button');
+    play_again_button.addEventListener('click', reset);
 }
 
 //update the timer on the page
