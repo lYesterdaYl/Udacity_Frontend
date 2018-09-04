@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="" />
+    <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Memory Game/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/js/app.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +25,8 @@
         <counts>
           <entry key="css" value="228" />
           <entry key="html" value="11" />
-          <entry key="js" value="1307" />
-          <entry key="md" value="664" />
+          <entry key="js" value="1337" />
+          <entry key="md" value="687" />
           <entry key="php" value="448" />
         </counts>
       </usages-collector>
@@ -32,8 +34,8 @@
         <counts>
           <entry key="CSS" value="228" />
           <entry key="HTML" value="11" />
-          <entry key="JavaScript" value="1307" />
-          <entry key="Markdown" value="664" />
+          <entry key="JavaScript" value="1337" />
+          <entry key="Markdown" value="687" />
           <entry key="PHP" value="448" />
         </counts>
       </usages-collector>
@@ -105,21 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="89" column="17" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="17" />
+            <state relative-caret-position="427">
+              <caret line="160" column="5" lean-forward="true" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="475">
-                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <first_editor relative-caret-position="532">
+                <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -194,8 +196,8 @@
         <option value="$PROJECT_DIR$/Portfolio Site/.htaccess" />
         <option value="$PROJECT_DIR$/Portfolio Site/index.php" />
         <option value="$PROJECT_DIR$/Memory Game/index.html" />
-        <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
         <option value="$PROJECT_DIR$/Memory Game/README.md" />
+        <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
       </list>
     </option>
   </component>
@@ -335,12 +337,12 @@
       <workItem from="1535969708574" duration="47000" />
       <workItem from="1535969775323" duration="784000" />
       <workItem from="1536008332223" duration="377000" />
-      <workItem from="1536009695198" duration="9486000" />
+      <workItem from="1536009695198" duration="11048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149853000" />
+    <option name="totallyTimeSpent" value="151415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -525,20 +527,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="89" column="17" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="475">
-            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <first_editor relative-caret-position="532">
+            <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="160" column="5" lean-forward="true" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
         </state>
       </provider>
     </entry>
