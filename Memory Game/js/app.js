@@ -55,7 +55,7 @@ async function click_card(event){
         timer_status = true;
     }
     //be sure target is not the card had matched or a card that has flipped.
-    if (event.target.id !== 'match' && event.target.id !== 'opened') {
+    if (event.target.id !== 'match' && event.target.id !== 'opened' && event.target.parentNode.id != 'opened') {
         current_onclick++;
 
         //check chose_card list length, if it is empty, flip the card, if not flip the card, also check if the flip card match the one in the list.
@@ -151,7 +151,7 @@ function check_performance(step) {
     else if (step > 20 && step <= 30){
         return 2;
     }
-    else if (step > 40){
+    else if (step > 30){
         return 1;
     }
 }

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Memory Game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio Site/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio Site/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio Site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio Site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/js/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,16 +25,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="228" />
-          <entry key="html" value="10" />
-          <entry key="js" value="1152" />
+          <entry key="html" value="11" />
+          <entry key="js" value="1307" />
           <entry key="php" value="448" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="228" />
-          <entry key="HTML" value="10" />
-          <entry key="JavaScript" value="1152" />
+          <entry key="HTML" value="11" />
+          <entry key="JavaScript" value="1307" />
           <entry key="PHP" value="448" />
         </counts>
       </usages-collector>
@@ -53,11 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio Site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="192" column="134" selection-start-line="192" selection-start-column="134" selection-end-line="192" selection-end-column="134" />
+            <state relative-caret-position="741">
+              <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
             </state>
           </provider>
         </entry>
@@ -83,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="836">
+              <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -116,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="475">
+              <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -203,10 +202,10 @@
         <option value="$PROJECT_DIR$/Memory Game/backup.txt" />
         <option value="$PROJECT_DIR$/Memory Game/css/app.css" />
         <option value="$PROJECT_DIR$/Memory Game/css/responsive.css" />
-        <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
         <option value="$PROJECT_DIR$/Portfolio Site/.htaccess" />
-        <option value="$PROJECT_DIR$/Memory Game/index.html" />
         <option value="$PROJECT_DIR$/Portfolio Site/index.php" />
+        <option value="$PROJECT_DIR$/Memory Game/index.html" />
+        <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
       </list>
     </option>
   </component>
@@ -280,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.php">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Udacity_Frontend/Memory Game/index.html">
       <method v="2" />
     </configuration>
@@ -300,8 +299,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.php" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.php" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="PHP Script.test.php" />
@@ -346,12 +345,12 @@
       <workItem from="1535969708574" duration="47000" />
       <workItem from="1535969775323" duration="784000" />
       <workItem from="1536008332223" duration="377000" />
-      <workItem from="1536009695198" duration="5580000" />
+      <workItem from="1536009695198" duration="7828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145947000" />
+    <option name="totallyTimeSpent" value="148195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -518,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio Site/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -539,17 +531,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
+    <entry file="file://$PROJECT_DIR$/Portfolio Site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="741">
+          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio Site/index.php">
+    <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="192" column="134" selection-start-line="192" selection-start-column="134" selection-end-line="192" selection-end-column="134" />
+        <state relative-caret-position="836">
+          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
         </state>
       </provider>
     </entry>
