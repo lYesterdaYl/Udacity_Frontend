@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Memory Game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memory Game/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memory Game/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,7 @@
           <entry key="css" value="228" />
           <entry key="html" value="11" />
           <entry key="js" value="1307" />
+          <entry key="md" value="664" />
           <entry key="php" value="448" />
         </counts>
       </usages-collector>
@@ -35,6 +35,7 @@
           <entry key="CSS" value="228" />
           <entry key="HTML" value="11" />
           <entry key="JavaScript" value="1307" />
+          <entry key="Markdown" value="664" />
           <entry key="PHP" value="448" />
         </counts>
       </usages-collector>
@@ -82,17 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/下载/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="4" column="117627" selection-start-line="4" selection-start-column="117623" selection-end-line="4" selection-end-column="117627" />
+            <state relative-caret-position="-220">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -115,21 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
+            <state relative-caret-position="278">
+              <caret line="89" column="17" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="209">
-                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <first_editor relative-caret-position="456">
+                <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
               </first_editor>
               <second_editor />
             </state>
@@ -148,7 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>footer</find>
       <find>section_content_logo</find>
       <find>fridge</find>
       <find>img</find>
@@ -178,6 +169,7 @@
       <find>match</find>
       <find>show</find>
       <find>create_icon_array</find>
+      <find>$</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,7 +190,6 @@
         <option value="$PROJECT_DIR$/Portfolio Site/test.php" />
         <option value="$USER_HOME$/Desktop/inc.php" />
         <option value="$PROJECT_DIR$/Portfolio Site/include/function.php" />
-        <option value="$PROJECT_DIR$/Memory Game/README.md" />
         <option value="$PROJECT_DIR$/Memory Game/backup.txt" />
         <option value="$PROJECT_DIR$/Memory Game/css/app.css" />
         <option value="$PROJECT_DIR$/Memory Game/css/responsive.css" />
@@ -206,6 +197,7 @@
         <option value="$PROJECT_DIR$/Portfolio Site/index.php" />
         <option value="$PROJECT_DIR$/Memory Game/index.html" />
         <option value="$PROJECT_DIR$/Memory Game/js/app.js" />
+        <option value="$PROJECT_DIR$/Memory Game/README.md" />
       </list>
     </option>
   </component>
@@ -243,7 +235,7 @@
             <path>
               <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udacity_Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Portfolio Site" type="462c0819:PsiDirectoryNode" />
+              <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,12 +337,12 @@
       <workItem from="1535969708574" duration="47000" />
       <workItem from="1535969775323" duration="784000" />
       <workItem from="1536008332223" duration="377000" />
-      <workItem from="1536009695198" duration="7828000" />
+      <workItem from="1536009695198" duration="9236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148195000" />
+    <option name="totallyTimeSpent" value="149603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -493,16 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
@@ -524,13 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio Site/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -540,15 +515,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        <state relative-caret-position="-220">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
+        <state relative-caret-position="278">
+          <caret line="89" column="17" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="456">
+            <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

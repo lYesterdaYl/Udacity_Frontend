@@ -1,11 +1,20 @@
 # Memory Game Project
-
-## Table of Contents
-
-* [Introduction](#introduction)
-
-## Introduction
-
 This Project was created for my Udacity Nanodegree. It was built for users who like to play memory card game.
+## Author
 
+* Zhiyuan Du
 
+## How to Play
+
+1. Simply click the card on the deck.
+2. Find the same one the match with each other.
+3. Win the game by finding all the matched card.
+
+## What to Expect
+Users will find it interesting while the deck will generate differnt icon for the deck from a large icon pool(about 500+). Users can improve skill of memorizing new icons, so they don't get bored with totally different icons each game.
+
+## Built With
+
+* [BootStrap](https://getbootstrap.com/) - Used to make the winning modal
+* [Font Awesome](https://fontawesome.com/) - Used to generate icons for the deck
+* [Jquery](https://jquery.com/) - Used to achieve effects for the game
