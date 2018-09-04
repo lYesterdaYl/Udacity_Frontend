@@ -138,18 +138,59 @@ if($ip != "192.168.1.1"){
                     <h2 class="section_header">
                         <br>PROJECTS
                     </h2>
+
                     <div class="section_content">
                         <div class="section_content_title">
-                            EasyGo Image Identification Fridge(WeBox)
+                            Memory Game
                         </div>
 
                         <div class="section_content_date">
-                            April 2017 – July 2018<br>
+                            Aug 2018 – Sep 2018<br>
                         </div>
 
                         <div class="section_content_info">
-                            •	Developed and updated the Radio Frequency Identification(RFID) Fridge's code to work with both the Image Identification Fridge's                                hardware and RFID Fridge.<br>
+                            <a href="https://github.com/lYesterdaYl/Udacity_Frontend/tree/master/Memory%20Game">Github</a><br>
+                            <a href="http://97.90.19.113/Memory_Game/">Online Version</a><br>
+                            •	Developed and Designed a memory game for Udacity NanoDegree Project<br>
+                            •	Developed functions with JavaScript to perform feature<br>
+                            •	The game has responsive design across phone, tablet, and desktop<br>
+                            •	Skill: JavaScript, HTML, CSS<br>
+                        </div>
+                    </div>
+
+                    <div class="section_content">
+                        <div class="section_content_title">
+                            <br>Portfolio Site
+                        </div>
+
+                        <div class="section_content_date">
+                            Aug 2018 – Aug 2018<br>
+                        </div>
+
+                        <div class="section_content_info">
+                            <a href="https://github.com/lYesterdaYl/Udacity_Frontend/tree/master/Portfolio%20Site">Github</a><br>
+                            <a href="http://97.90.19.113/Portfolio_Site/">Online Version</a><br>
+                            •	Developed and Designed a personal website for Udacity NanoDegree Project<br>
+                            •	Developed page with responsive design for phone, tablet, and desktop<br>
+                            •	Used PHP to keep track of vister's information upon visiting the website<br>
+                            •	Skill: PHP, MySQL, HTML, CSS<br>
+                        </div>
+                    </div>
+
+                    <div class="section_content">
+                        <div class="section_content_title">
+                            <br>EasyGo Image Identification Fridge(WeBox)
+                        </div>
+
+                        <div class="section_content_date">
+                            April 2018 – July 2018<br>
+                        </div>
+
+                        <div class="section_content_info">
+                            •	Developed and updated the Radio Frequency Identification(RFID) Fridge's code to work with both the Image Identification Fridge's hardware and RFID Fridge.<br>
                             •	Developed a debug system to record information from the Fridge payment procedure.<br>
+                            •	Using Google TensorFlow Model Project to achieve image identification function.<br>
+                            •	Gained experience on how to label the object efficiently and increase the identification accuracy.<br>
                             •	Skill: PHP, JavaScript, MySQL, Redis, Laravel<br>
                         </div>
                     </div>
@@ -164,7 +205,7 @@ if($ip != "192.168.1.1"){
                         </div>
 
                         <div class="section_content_info">
-                            •	Solely Designed and developed a Wechat HTML5 mini-program base application that allows customers to scan products' barcode to                                       achieve shopping through their phone.<br>
+                            •	Solely Designed and developed a Wechat HTML5 mini-program base application that allows customers to scan products' barcode to achieve shopping through their phone.<br>
                             •	Designed and developed Application's UI by Wechat mini-program IDE. It is a JavaScript base developer tool.<br>
                             •	Developed Management system with Amazed UI framework.<br>
                             •	Backend APIs for the mini-program and management system are written by PHP to interface SQL database.<br>
@@ -183,7 +224,7 @@ if($ip != "192.168.1.1"){
                         </div>
 
                         <div class="section_content_info">
-                            •	Designed and developed a Wechat HTML5 mini-program base application that allows customers to buy products from the                                      fridge with just 3 simple steps: open, take and go.<br>
+                            •	Designed and developed a Wechat HTML5 mini-program base application that allows customers to buy products from the fridge with just 3 simple steps: open, take and go.<br>
                             •	Data storage method involving Memcache and SQL.<br>
                             •	Backend APIs are written by PHP to interface Memcache and SQL database.<br>
                             •	Skill: PHP, JavaScript, MySQL, Memcache, Redis, Laravel<br>
