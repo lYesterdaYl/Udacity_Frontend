@@ -18,3 +18,7 @@ Users will find it interesting while the deck will generate differnt icon for th
 * [BootStrap](https://getbootstrap.com/) - Used to make the winning modal
 * [Font Awesome](https://fontawesome.com/) - Used to generate icons for the deck
 * [Jquery](https://jquery.com/) - Used to achieve effects for the game
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details

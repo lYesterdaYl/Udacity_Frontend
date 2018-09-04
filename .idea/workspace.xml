@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Memory Game/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Memory Game/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,8 +118,8 @@
         <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+              <first_editor relative-caret-position="475">
+                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -337,12 +335,12 @@
       <workItem from="1535969708574" duration="47000" />
       <workItem from="1535969775323" duration="784000" />
       <workItem from="1536008332223" duration="377000" />
-      <workItem from="1536009695198" duration="9236000" />
+      <workItem from="1536009695198" duration="9486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149603000" />
+    <option name="totallyTimeSpent" value="149853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
@@ -537,8 +535,8 @@
     <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          <first_editor relative-caret-position="475">
+            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           </first_editor>
           <second_editor />
         </state>
