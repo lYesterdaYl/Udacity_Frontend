@@ -4,17 +4,20 @@ include('../../../../system_files/inc.php');
 include('include/function.php');
 
 $ip = get_ip();
-$location = file_get_contents("http://ip.taobao.com/service/getIpInfo.php?ip=".$ip);
+$location = file_get_contents("https://ipstack.com/ipstack_api.php?ip=".$ip);
 $location = json_decode($location);
-$country = $location->data->country;
-$region = $location->data->region;
+$country = $location->country_name;
+$region = $location->region_name;
+$city = $location->city;
+$zip = $location->zip;
+$degree = $location->latitude.", ".$location->longitude;
 $browser = get_browser();
 $os = get_os();
 
 if($ip != "192.168.1.1"){
-    $sql = "insert into info (ip, browser, os, country, region) VALUES (?,?,?,?,?)";
+    $sql = "insert into info (ip, browser, os, country, region, city, zip, degree) VALUES (?,?,?,?,?,?,?,?)";
     $stmt = $mysqli->prepare($sql);
-    $stmt->bind_param("sssss", $ip, $browser, $os, $country, $region);
+    $stmt->bind_param("ssssssss", $ip, $browser, $os, $country, $region, $city, $zip, $degree);
     $stmt->execute();
 }
 
@@ -47,7 +50,7 @@ if($ip != "192.168.1.1"){
 
                 </div>
                 <div class="header_self_description">
-                    <p>Hi! Welcome to my Portfolio website. I am a former core PHP Developer in an unmanned convinence store company. I worked and finished multiple projects such as, unmanned Radio Frequency Identification & image identification fridge & a solo project on self-service market  during my work. I am currently a UC Irvine student who will graduate next year, and I am studying Front-End in the Udacity Front-End Web Developer Program.
+                    <p>Hi! Welcome to my Portfolio website. I am a former core PHP Developer in an unmanned convinence store company in China. I have worked and finished multiple projects such as, unmanned Radio Frequency Identification & image identification fridge & a solo project on self-service market during my previous work. I am currently a UC Irvine student who will graduate next year, and I am studying Front-End in the Udacity Front-End Web Developer Program. During the nanodegree with Udacity, I have completed 2 projects with few weeks ahead the deadline, and I got great feedback from the reviewer. I believe I can do well on Front-End tasks upon completing this degree. I also have the aspiration to take the Full-Stack Developer program soon, to improve my deeper knowledge of web development with various programming languages.
                     </p>
                 </div>
             </div>
