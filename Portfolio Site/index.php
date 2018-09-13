@@ -4,7 +4,28 @@ include('../../../../system_files/inc.php');
 include('include/function.php');
 
 $ip = get_ip();
-$location = file_get_contents("https://ipstack.com/ipstack_api.php?ip=".$ip);
+
+$check_ip = "select * from woe_info where ip = '".$ip."'";
+$result = $mysqli->query($check_ip);
+$row = $result->fetch_array();
+
+if($row['ip'] == ''){
+    $location = file_get_contents("http://api.ipstack.com/".$ip."?access_key=".$access_key);
+    $location = json_decode($location, TRUE);
+}
+else{
+    $location['country_name'] = $row['country'];
+    $location['region_name'] = $row['region'];
+    $location['city'] = $row['city'];
+    $location['zip'] = $row['zip'];
+
+    $d = explode(",", $row['degree']);
+
+    $location['latitude'] = $d[0];
+    $location['longitude'] = $d[1];
+}
+
+//$location = file_get_contents("https://ipstack.com/ipstack_api.php?ip=".$ip);
 $location = json_decode($location);
 $country = $location->country_name;
 $region = $location->region_name;
