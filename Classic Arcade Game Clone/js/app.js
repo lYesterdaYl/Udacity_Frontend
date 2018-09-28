@@ -115,12 +115,30 @@ class Player{
 
 class Gem{
     constructor(){
-        this.x = Math.floor((Math.random() * 6) + 0) * 101;
-        this.y = Math.floor((Math.random() * 3) + 0) * 83 + 53;
-        
-        this.sprite = 'images/enemy-bug.png';
+        this.x = Math.floor((Math.random() * 6) + 0) * 101 + 25.25;
+        this.y = Math.floor((Math.random() * 3) + 0) * 83 + 53 + 50;
+
+        this.sprite = this.generate_gem_skin();
 
     }
+
+    generate_gem_skin(){
+        let num = Math.floor((Math.random() * 3) + 1);
+        let path = "images/";
+        if (num == 1){
+            return path + "Gem-Blue.png";
+        }
+        else if (num == 2){
+            return path + "Gem-Green.png";
+        }
+        else{
+            return path + "Gem-Orange.png";
+        }
+    }
+
+    render() {
+        ctx.drawImage(Resources.get(this.sprite), this.x, this.y, 50.5, 85.5);
+    };
 }
 
 
@@ -131,10 +149,16 @@ class Gem{
 
 let allEnemies = [];
 let player = new Player()
+let allGems = [];
 
 for (let i = 0;i < 10;i++){
     let enemy = new Enemy();
     allEnemies.push(enemy);
+}
+
+for (let i = 0;i < 10;i++){
+    let gem = new Gem();
+    allGems.push(gem);
 }
 console.log(allEnemies);
 
