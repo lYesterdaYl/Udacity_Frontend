@@ -79,7 +79,17 @@ var Engine = (function(global) {
      */
     function update(dt) {
         updateEntities(dt);
-        // checkCollisions();
+        checkCollisions();
+    }
+
+    function checkCollisions() {
+        for (e of allEnemies){
+            if (e.x + 40 + e.speed > player.x && e.x - 40 - e.speed < player.x && e.y == player.y){
+                console.log(e);
+                reset();
+                // return e;
+            }
+        }
     }
 
     /* This is called by the update function and loops through all of the
@@ -161,6 +171,7 @@ var Engine = (function(global) {
      * those sorts of things. It's only called once by the init() method.
      */
     function reset() {
+        player.reset();
         // noop
     }
 
