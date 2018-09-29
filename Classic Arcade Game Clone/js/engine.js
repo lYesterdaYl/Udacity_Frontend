@@ -82,12 +82,17 @@ var Engine = (function(global) {
         checkCollisions();
     }
 
+    //check if player coll with a bug or a gem, amd do certain action(die or reward)
     function checkCollisions() {
         for (e of allEnemies){
             if (e.x + 40 + e.speed > player.x && e.x - 40 - e.speed < player.x && e.y == player.y){
-                console.log(e);
                 reset();
-                // return e;
+            }
+        }
+
+        for (g of allGems){
+            if (g.x + 40 > player.x && g.x - 40 < player.x && g.y - 50 == player.y){
+                g.reward();
             }
         }
     }
@@ -177,7 +182,7 @@ var Engine = (function(global) {
      * those sorts of things. It's only called once by the init() method.
      */
     function reset() {
-        player.reset();
+        reset_game();
         // noop
     }
 

@@ -1,6 +1,24 @@
-frontend-nanodegree-arcade-game
-===============================
+# Classic Arcade Game Project
+This Project was created for my Udacity Nanodegree. It was built for users who like to enjoy classic old game.
+## Author
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+* Zhiyuan Du
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## How to Play
+
+1. Simply control the character with left, right, up, and down arrow keys.
+2. collect the gem on the road, but be careful! Don't hit the bugs!
+3. Win the game by hitting the Goal score.
+
+## What to Expect
+Users might enjoy playing the game because it is a clisical game I liked to play when I was young. The graphic has become so much better since then.
+
+## Built With
+
+* [HTML 5 Canvas](https://developer.mozilla.org/kab/docs/Web/API/Canvas_API) - Used to generate 2D graphics for the game.
+* [BootStrap](https://getbootstrap.com/) - Used to make the winning modal.
+* [Jquery](https://jquery.com/) - Used to support bootstrap's functionalities.
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
