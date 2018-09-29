@@ -1,8 +1,15 @@
 # Classic Arcade Game Project
+
 This Project was created for my Udacity Nanodegree. It was built for users who like to enjoy classic old game.
 ## Author
 
 * Zhiyuan Du
+
+## Installation
+
+1. Clone the repository.
+2. Open index.html with your web browser.
+3. Enjoy the game!
 
 ## How to Play
 
@@ -11,6 +18,7 @@ This Project was created for my Udacity Nanodegree. It was built for users who l
 3. Win the game by hitting the Goal score.
 
 ## What to Expect
+
 Users might enjoy playing the game because it is a clisical game I liked to play when I was young. The graphic has become so much better since then.
 
 ## Built With
