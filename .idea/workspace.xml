@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classic Arcade Game Clone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Classic Arcade Game Clone/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,25 +14,26 @@
     <session id="644566972">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="264" />
-          <entry key="html" value="134" />
-          <entry key="js" value="4520" />
+          <entry key="css" value="276" />
+          <entry key="html" value="158" />
+          <entry key="js" value="5421" />
           <entry key="json" value="3" />
           <entry key="md" value="1251" />
           <entry key="php" value="608" />
@@ -41,21 +41,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="264" />
-          <entry key="HTML" value="134" />
+          <entry key="CSS" value="276" />
+          <entry key="HTML" value="158" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="4520" />
+          <entry key="JavaScript" value="5421" />
           <entry key="Markdown" value="1251" />
           <entry key="PHP" value="608" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
+          <entry key="css" value="7" />
           <entry key="gitignore" value="1" />
           <entry key="htaccess" value="1" />
-          <entry key="html" value="2" />
-          <entry key="js" value="13" />
+          <entry key="html" value="3" />
+          <entry key="js" value="17" />
           <entry key="json" value="2" />
           <entry key="md" value="3" />
           <entry key="png" value="3" />
@@ -63,11 +63,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="2" />
+          <entry key="CSS" value="7" />
+          <entry key="HTML" value="3" />
           <entry key="Image" value="3" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="13" />
+          <entry key="JavaScript" value="17" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="htaccess" value="1" />
@@ -81,69 +81,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/index.html">
+        <entry file="file://$PROJECT_DIR$/Feed Reader Testing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="180">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/js/resources.js">
+        <entry file="file://$PROJECT_DIR$/Feed Reader Testing/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="228">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="361">
-                <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/js/app.js">
+        <entry file="file://$PROJECT_DIR$/Feed Reader Testing/jasmine/spec/feedreader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="208" column="9" lean-forward="true" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/js/engine.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1691">
-              <caret line="102" column="74" selection-start-line="102" selection-start-column="74" selection-end-line="102" selection-end-column="74" />
+            <state relative-caret-position="701">
+              <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -152,19 +114,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Memory Game/index.html">
+        <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            <state relative-caret-position="281">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/css/style.css">
+        <entry file="file://$PROJECT_DIR$/Feed Reader Testing/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="503">
+              <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -181,13 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fa</find>
-      <find>console</find>
-      <find>move</find>
-      <find>star1</find>
-      <find>star</find>
-      <find>card_list</find>
-      <find>document</find>
       <find>flex</find>
       <find>header</find>
       <find>inh</find>
@@ -211,6 +166,13 @@
       <find>render</find>
       <find>check_if_win</find>
       <find>reset</find>
+      <find>menu</find>
+      <find>menu-hidden</find>
+      <find>class</find>
+      <find>click</find>
+      <find>listener</find>
+      <find>loadfeed</find>
+      <find>side</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -247,6 +209,10 @@
         <option value="$PROJECT_DIR$/Classic Arcade Game Clone/index.html" />
         <option value="$PROJECT_DIR$/Classic Arcade Game Clone/css/style.css" />
         <option value="$PROJECT_DIR$/Classic Arcade Game Clone/js/app.js" />
+        <option value="$PROJECT_DIR$/Feed Reader Testing/css/style.css" />
+        <option value="$PROJECT_DIR$/Feed Reader Testing/js/app.js" />
+        <option value="$PROJECT_DIR$/Feed Reader Testing/index.html" />
+        <option value="$PROJECT_DIR$/Feed Reader Testing/jasmine/spec/feedreader.js" />
       </list>
     </option>
   </component>
@@ -282,17 +248,16 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="width" value="1294" />
-    <option name="height" value="1047" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,24 +268,52 @@
             <path>
               <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udacity_Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Classic Arcade Game Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="Feed Reader Testing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udacity_Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Classic Arcade Game Clone" type="462c0819:PsiDirectoryNode" />
+              <item name="Feed Reader Testing" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udacity_Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
+              <item name="Feed Reader Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="jasmine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udacity_Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="Feed Reader Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="jasmine" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udacity_Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="Feed Reader Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="jasmine" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="jasmine-2.1.2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udacity_Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="Feed Reader Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="jasmine" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udacity_Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="Feed Reader Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udacity_Frontend" type="462c0819:PsiDirectoryNode" />
               <item name="Memory Game" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Udacity_Frontend" type="b2602c69:ProjectViewProjectNode" />
@@ -332,6 +325,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +356,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Udacity_Frontend/Feed Reader Testing/index.html">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/Udacity_Frontend/Memory Game/index.html">
       <method v="2" />
     </configuration>
@@ -399,9 +396,11 @@
       <item itemvalue="Gulp.js.default" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="PHP Script.test.php" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -463,20 +462,23 @@
       <workItem from="1538341275995" duration="62000" />
       <workItem from="1538341353681" duration="2162000" />
       <workItem from="1538343815748" duration="656000" />
+      <workItem from="1538413811390" duration="2548000" />
+      <workItem from="1538420124343" duration="1699000" />
+      <workItem from="1538425798249" duration="8253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197400000" />
+    <option name="totallyTimeSpent" value="209900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
+    <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49562362" visible="true" weight="0.16207455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49404117" visible="true" weight="0.16571428" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5008157" side_tool="true" weight="0.16207455" />
-      <window_info id="Gulp" order="3" sideWeight="0.50437635" side_tool="true" visible="true" weight="0.16207455" />
+      <window_info id="Gulp" order="3" sideWeight="0.50595886" side_tool="true" weight="0.16190477" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32822758" />
@@ -503,14 +505,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home Town App/responsive.css" />
-    <entry file="file://$PROJECT_DIR$/Home Town App/final.css" />
-    <entry file="file://$PROJECT_DIR$/Home Town App/index.html" />
-    <entry file="file://$PROJECT_DIR$/Home Town App/main.css" />
-    <entry file="file://$PROJECT_DIR$/Start/main.css" />
     <entry file="file://$PROJECT_DIR$/Udacity_Templet_Code/Home Town App/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -591,13 +585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/下载/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="4" column="117627" selection-start-line="4" selection-start-column="117623" selection-end-line="4" selection-end-column="117627" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/下载/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/Portfolio Site/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -646,13 +634,6 @@
     <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/images/char-boy.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="198" selection-start-line="198" selection-end-line="205" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Memory Game/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -683,13 +664,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/js/resources.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -719,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1691">
           <caret line="102" column="74" selection-start-line="102" selection-start-column="74" selection-end-line="102" selection-end-column="74" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,8 +713,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classic Arcade Game Clone/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="208" column="9" lean-forward="true" selection-start-line="208" selection-start-column="9" selection-end-line="208" selection-end-column="9" />
+        <state relative-caret-position="361">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feed Reader Testing/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feed Reader Testing/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="180" column="28" selection-start-line="180" selection-start-column="24" selection-end-line="180" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feed Reader Testing/css/icomoon.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memory Game/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feed Reader Testing/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feed Reader Testing/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Feed Reader Testing/jasmine/spec/feedreader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
