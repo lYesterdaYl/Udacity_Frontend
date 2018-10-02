@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Feed Reader Testing/jasmine/spec/feedreader.js" beforeDir="false" afterPath="$PROJECT_DIR$/Feed Reader Testing/jasmine/spec/feedreader.js" afterDir="false" />
-    </list>
+    <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -507,12 +505,12 @@
       <workItem from="1538413811390" duration="2548000" />
       <workItem from="1538420124343" duration="1699000" />
       <workItem from="1538425798249" duration="9083000" />
-      <workItem from="1538452354266" duration="663000" />
+      <workItem from="1538452354266" duration="1862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211393000" />
+    <option name="totallyTimeSpent" value="212592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
