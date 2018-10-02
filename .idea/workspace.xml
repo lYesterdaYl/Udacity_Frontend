@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="80bdcc11-27d1-48b3-9bd9-aec00f4067c2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
         <counts>
           <entry key="css" value="276" />
           <entry key="html" value="158" />
-          <entry key="js" value="5421" />
+          <entry key="js" value="5701" />
           <entry key="json" value="3" />
           <entry key="md" value="1251" />
           <entry key="php" value="608" />
@@ -44,7 +42,7 @@
           <entry key="CSS" value="276" />
           <entry key="HTML" value="158" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="5421" />
+          <entry key="JavaScript" value="5701" />
           <entry key="Markdown" value="1251" />
           <entry key="PHP" value="608" />
         </counts>
@@ -104,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Feed Reader Testing/jasmine/spec/feedreader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
+            <state relative-caret-position="568">
+              <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -464,12 +462,12 @@
       <workItem from="1538343815748" duration="656000" />
       <workItem from="1538413811390" duration="2548000" />
       <workItem from="1538420124343" duration="1699000" />
-      <workItem from="1538425798249" duration="8253000" />
+      <workItem from="1538425798249" duration="8507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209900000" />
+    <option name="totallyTimeSpent" value="210154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1633" height="1053" extended-state="6" />
@@ -761,8 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Feed Reader Testing/jasmine/spec/feedreader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="118" column="55" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
+        <state relative-caret-position="568">
+          <caret line="108" column="8" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
