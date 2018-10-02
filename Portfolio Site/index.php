@@ -165,6 +165,24 @@ if($ip != "192.168.1.1"){
 
                     <div class="section_content">
                         <div class="section_content_title">
+                            Classic Arcade Game
+                        </div>
+
+                        <div class="section_content_date">
+                            Sep 2018 – Sep 2018<br>
+                        </div>
+
+                        <div class="section_content_info">
+                            <a href="https://github.com/lYesterdaYl/Udacity_Frontend/tree/master/Classic%20Arcade%20Game%20Clone">Github</a><br>
+                            <a href="http://97.90.19.113/Classic_Arcade_Game/">Online Version</a><br>
+                            • Developed a classical game that allows players to collect gems on the road where bugs can kill player and reset the game. Player wins if they collected enough gems.<br>
+                            • The game was developed with Object-Oriented-Programming within 2 days.<br>
+                            • Skill: JavaScript, HTML5 Canvas, BootStrap, Jquery, HTML, CSS<br>
+                        </div>
+                    </div>
+
+                    <div class="section_content">
+                        <div class="section_content_title">
                             Memory Game
                         </div>
 
