@@ -87,7 +87,9 @@ $(function() {
     /* TODO: Write a new test suite named "Initial Entries" */
     describe('Intial Entries', function () {
         beforeEach(function (done) {
-            loadFeed(0, done);
+            loadFeed(0, function (done) {
+                done();
+            });
         });
         /* TODO: Write a test that ensures when the loadFeed
          * function is called and completes its work, there is at least
