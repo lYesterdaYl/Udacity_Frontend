@@ -183,7 +183,7 @@ if($ip != "192.168.1.1"){
 
                     <div class="section_content">
                         <div class="section_content_title">
-                            Memory Game
+                            <br>Memory Game
                         </div>
 
                         <div class="section_content_date">
