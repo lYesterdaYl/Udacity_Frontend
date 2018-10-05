@@ -10,7 +10,9 @@ $result = $mysqli->query($check_ip);
 $row = $result->fetch_array();
 
 if($row['ip'] == ''){
-    $location = file_get_contents("http://api.ipstack.com/".$ip."?access_key=".$access_key);
+    $url = "http://api.ipstack.com/".$ip."?access_key=".$access_key;
+//    echo $url;
+    $location = file_get_contents($url);
     $location = json_decode($location, TRUE);
 }
 else{
@@ -25,13 +27,11 @@ else{
     $location['longitude'] = $d[1];
 }
 
-//$location = file_get_contents("https://ipstack.com/ipstack_api.php?ip=".$ip);
-$location = json_decode($location);
-$country = $location->country_name;
-$region = $location->region_name;
-$city = $location->city;
-$zip = $location->zip;
-$degree = $location->latitude.", ".$location->longitude;
+$country = $location['country_name'];
+$region = $location['region_name'];
+$city = $location['city'];
+$zip = $location['zip'];
+$degree = $location['latitude'].", ".$location['longitude'];
 $browser = get_browser();
 $os = get_os();
 
