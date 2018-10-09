@@ -27,6 +27,9 @@ else{
     $location['longitude'] = $d[1];
 }
 
+//echo "<pre>";
+//print_r($location);
+
 $country = $location['country_name'];
 $region = $location['region_name'];
 $city = $location['city'];
@@ -90,7 +93,7 @@ if($ip != "192.168.1.1"){
 
                         <div class="section_content_date">
                             Sep 2014 - June 2017<br>
-                            July 2018 - June 2019<br>
+                            July 2018 - Mar 2019<br>s
                         </div>
 
                         <div class="section_content_info">
