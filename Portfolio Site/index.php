@@ -92,8 +92,7 @@ if($ip != "192.168.1.1"){
                         </div>
 
                         <div class="section_content_date">
-                            Sep 2014 - June 2017<br>
-                            July 2018 - Mar 2019<br>s
+                            Mar 2019<br>
                         </div>
 
                         <div class="section_content_info">
@@ -108,7 +107,7 @@ if($ip != "192.168.1.1"){
                         </div>
 
                         <div class="section_content_date">
-                            Aug 2018 - Present<br>
+                            Nov 2018<br>
                         </div>
 
                         <div class="section_content_info">
