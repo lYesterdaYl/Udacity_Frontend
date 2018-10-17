@@ -124,18 +124,34 @@ if($ip != "192.168.1.1"){
                         <br>STRENGTHS & SKILLS
                     </h2>
                     <div class="section_content">
+                        <div class="section_content_title">
+                            Back-End
+                        </div>
                         <div class="section_content_info">
                             •	Python: 1 year(experienced)<br>
                             •	PHP: 2 years (proficient)<br>
-                            •	WeChat Mini Program: 1 year(experienced)<br>
                             •	MySQL: 1 years(experienced)<br>
+                            •	Data Caching: 3 months(experienced)<br>
+                        </div>
+
+                        <div class="section_content_title">
+                            Front-End
+                        </div>
+                        <div class="section_content_info">
+                            •	WeChat Mini Program: 1 year(experienced)<br>
                             •	HTML: 1 years(experienced)<br>
                             •	CSS: 1 years(experienced)<br>
-                            •	Git: 1 years(experienced)<br>
                             •	Java Script: 1 year(experienced)<br>
+                        </div>
+
+                        <div class="section_content_title">
+                            Other
+                        </div>
+
+                        <div class="section_content_info">
+                            •	Git: 1 years(experienced)<br>
                             •	C++: 6 months(experienced)<br>
                             •	Java: 6 months(experienced)<br>
-                            •	Data Caching: 3 months(experienced)<br>
                             •	Unit Testing: 3 months(experienced)<br>
                             •	Swift: 1 months(basic)<br>
                         </div>
