@@ -5,7 +5,7 @@ include('include/function.php');
 
 $ip = get_ip();
 
-$check_ip = "select * from woe_info where ip = '".$ip."'";
+$check_ip = "select * from info where ip = '".$ip."'";
 $result = $mysqli->query($check_ip);
 $row = $result->fetch_array();
 
