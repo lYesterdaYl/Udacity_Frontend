@@ -10,7 +10,7 @@ This Project was created for my Udacity Nanodegree. It was built for users who l
 
 ## Author
 
-* Zhiyuan Du
+* [Zhiyuan Du](https://github.com/lYesterdaYl)
 
 ## Installation
 

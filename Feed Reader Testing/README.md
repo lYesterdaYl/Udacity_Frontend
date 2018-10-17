@@ -4,8 +4,7 @@ This Project was created for my Udacity Nanodegree. It is a web-based applicatio
 
 ## Author
 
-* Zhiyuan Du
-
+* [Zhiyuan Du](https://github.com/lYesterdaYl)
 
 ## How to run the test
 
