@@ -1,5 +1,12 @@
 # Memory Game Project
 This Project was created for my Udacity Nanodegree. It was built for users who like to play memory card game.
+
+### Preview
+![alt text](https://github.com/lYesterdaYl/Udacity_Frontend/blob/master/Memory%20Game/img/preview.jpg?raw=true)
+
+### Winning the Game
+![alt text](https://github.com/lYesterdaYl/Udacity_Frontend/blob/master/Memory%20Game/img/winning.jpg?raw=true)
+
 ## Author
 
 * Zhiyuan Du
