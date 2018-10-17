@@ -69,7 +69,7 @@ if($ip != "192.168.1.1"){
                         Zhiyuan Du
                     </div>
                     <div class="header_job">
-                        PHP Back-End Developer<br>
+                        Full Stack Web Developer<br>
                     </div>
 
                 </div>
@@ -117,6 +117,30 @@ if($ip != "192.168.1.1"){
 
                     </div>
 
+                </section>
+
+                <section class="language_technologies">
+                    <h2 class="section_header">
+                        <br>STRENGTHS & SKILLS
+                    </h2>
+                    <div class="section_content">
+                        <div class="section_content_info">
+                            •	Python: 1 year(experienced)<br>
+                            •	PHP: 2 years (proficient)<br>
+                            •	WeChat Mini Program: 1 year(experienced)<br>
+                            •	MySQL: 1 years(experienced)<br>
+                            •	HTML: 1 years(experienced)<br>
+                            •	CSS: 1 years(experienced)<br>
+                            •	Git: 1 years(experienced)<br>
+                            •	Java Script: 1 year(experienced)<br>
+                            •	C++: 6 months(experienced)<br>
+                            •	Java: 6 months(experienced)<br>
+                            •	Data Caching: 3 months(experienced)<br>
+                            •	Unit Testing: 3 months(experienced)<br>
+                            •	Swift: 1 months(basic)<br>
+                        </div>
+
+                    </div>
                 </section>
 
                 <section class="experience">
@@ -381,25 +405,6 @@ if($ip != "192.168.1.1"){
                         </div>
                     </div>
 
-                </section>
-
-                <section class="language_technologies">
-                    <h2 class="section_header">
-                        <br>LANGUAGES & TECHNOLOGIES
-                    </h2>
-                    <div class="section_content">
-                        <div class="section_content_info">
-                            •	Python: 1 year(experienced)<br>
-                            •	PHP: 2 years (proficient)<br>
-                            •	MySQL: 1 years(experienced)<br>
-                            •	HTML: 1 years(experienced)<br>
-                            •	Java Script: 6 months(ordinary)<br>
-                            •	C++: 6 months(ordinary)<br>
-                            •	Java: 6 months(ordinary)<br>
-                            •	Swift: 1 months(ordinary)<br>
-                        </div>
-
-                    </div>
                 </section>
 
                 <section class="additional_skills">
