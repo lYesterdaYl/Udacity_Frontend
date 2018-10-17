@@ -1,6 +1,14 @@
 # Classic Arcade Game Project
 
 This Project was created for my Udacity Nanodegree. It was built for users who like to enjoy classic old game.
+
+### Preview
+![alt text](https://github.com/lYesterdaYl/Udacity_Frontend/blob/master/Classic%20Arcade%20Game%20Clone/images/preview.jpg?raw=true)
+
+### Winning the Game
+![alt text](https://github.com/lYesterdaYl/Udacity_Frontend/blob/master/Classic%20Arcade%20Game%20Clone/images/winning.jpg?raw=true
+)
+
 ## Author
 
 * Zhiyuan Du
