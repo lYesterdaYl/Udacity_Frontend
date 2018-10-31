@@ -1,0 +1,18 @@
+
+
+@media screen and (min-width: 281px) and (max-width: 470px) {
+    nav h1 a{
+        font-size: 0.6em;
+        letter-spacing: 0.6em;
+    }
+
+    #map{
+        height: 18em;
+    }
+
+    .filter-options select{
+        width: 11em;
+    }
+
+
+}
