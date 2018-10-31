@@ -104,3 +104,173 @@
     }
 }
 
+/*Responsive for Desktop*/
+@media screen and (min-width: 501px) and (max-width: 950px) {
+    .inside{
+        display: block;
+    }
+
+    .inside header {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    #breadcrumb {
+        width: 94%;
+        padding: 3%;
+    }
+
+    .inside #map-container {
+        top: 5%;
+        height: 25%;
+        position: absolute;
+    }
+
+    #map{
+        height: 18em;
+    }
+
+    #restaurant-container,
+    #reviews-container {
+        width: 50%;
+        padding: 1% 3%;
+    }
+
+    #reviews-container {
+        width: 100%;
+    }
+
+    #reviews-list li {
+        padding: 0 0 12px;
+    }
+
+    .review_title{
+        background-color: #252831;
+        display: flex;
+        margin: auto;
+        padding: 1.5em;
+        width: 100%;
+    }
+
+    .review_name{
+        width: 60%;
+        font-size: 1.7em;
+    }
+
+    .review_date{
+        width: 40%;
+    }
+    .review_name, .review_date{
+        /*padding: 1em;*/
+        color: #ffffff;
+        /*font-size: 1em;*/
+    }
+
+    .review_rating{
+        display: inline;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ff9d09;
+        padding: 2%;
+        border-radius: 0.5em;
+    }
+
+    .review_comment{
+        font-size: 1em;
+        padding-top: 5%;
+    }
+
+    .review_body{
+        padding: 5%;
+    }
+
+    .inside #footer {
+        padding: 3%;
+    }
+}
+
+@media screen and (min-width: 951px){
+    .inside{
+        display: block;
+    }
+
+    .inside header {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    #breadcrumb {
+        width: 94%;
+        padding: 3%;
+    }
+
+    .inside #map-container {
+        top: 5%;
+        height: 25%;
+        position: absolute;
+    }
+
+    #map{
+        height: 18em;
+    }
+
+    #restaurant-container,
+    #reviews-container {
+        width: 50%;
+        padding: 1% 3%;
+    }
+
+    #reviews-container {
+        width: 100%;
+    }
+
+    #reviews-list li {
+        padding: 0 0 12px;
+    }
+
+    .review_title{
+        background-color: #252831;
+        display: flex;
+        margin: auto;
+        padding: 1.5em;
+        width: 100%;
+    }
+
+    .review_name{
+        width: 85%;
+        font-size: 1.7em;
+    }
+
+    .review_date{
+        width: 15%;
+    }
+    .review_name, .review_date{
+        /*padding: 1em;*/
+        color: #ffffff;
+        /*font-size: 1em;*/
+    }
+
+    .review_rating{
+        display: inline;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ff9d09;
+        padding: 0.5%;
+        border-radius: 0.5em;
+    }
+
+    .review_comment{
+        font-size: 1.5em;
+        padding-top: 2%;
+    }
+
+    .review_body{
+        padding: 3%;
+    }
+
+    .inside #footer {
+        padding: 3%;
+    }
+}
