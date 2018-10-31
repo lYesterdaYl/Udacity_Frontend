@@ -1,6 +1,7 @@
 
-
-@media screen and (min-width: 281px) and (max-width: 470px) {
+/*Responsive for Mobile*/
+@media screen and (min-width: 281px) and (max-width: 500px) {
+    /*Index Responsive*/
     nav h1 a{
         font-size: 0.6em;
         letter-spacing: 0.6em;
@@ -14,5 +15,92 @@
         width: 11em;
     }
 
+    /*Restaurant Responsive*/
+    .inside{
+        display: block;
+    }
 
+    #breadcrumb {
+        width: 94%;
+        padding: 3%;
+    }
+
+    .inside header {
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .inside #map-container {
+        height: 21em;
+        position: relative;
+        width: 100%;
+        top: 0px;
+    }
+
+    .inside #restaurant-img{
+        border-radius: 2em;
+    }
+
+    .inside #map {
+        background-color: #ccc;
+        height: 100%;
+        width: 100%;
+    }
+
+    #restaurant-container,
+    #reviews-container {
+        width: 89%;
+        padding: 1% 5%;
+    }
+
+    #reviews-list li {
+        padding: 0 0 12px;
+    }
+
+    .review_title{
+        background-color: #252831;
+        display: flex;
+        margin: auto;
+        padding: 1.5em;
+        width: 100%;
+    }
+
+    .review_name{
+        width: 60%;
+        font-size: 1.7em;
+    }
+
+    .review_date{
+        width: 40%;
+    }
+    .review_name, .review_date{
+        /*padding: 1em;*/
+        color: #ffffff;
+        /*font-size: 1em;*/
+    }
+
+    .review_rating{
+        display: inline;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ff9d09;
+        padding: 2%;
+        border-radius: 0.5em;
+        margin-top: 20%;
+    }
+
+    .review_comment{
+        padding-top: 5%;
+    }
+
+    .review_body{
+        padding: 5%;
+    }
+
+    .inside #footer {
+        padding: 3%;
+    }
 }
+

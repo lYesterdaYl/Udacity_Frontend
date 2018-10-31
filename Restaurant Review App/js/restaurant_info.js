@@ -126,19 +126,36 @@ createReviewHTML = (review) => {
     const li = document.createElement('li');
     const name = document.createElement('p');
     name.innerHTML = review.name;
-    li.appendChild(name);
+    name.className += 'review_name';
+    // li.appendChild(name);
 
     const date = document.createElement('p');
     date.innerHTML = review.date;
-    li.appendChild(date);
+    date.className += 'review_date';
+    // li.appendChild(date);
+
+    const review_title = document.createElement('div');
+    review_title.className += 'review_title';
+    review_title.appendChild(name);
+    review_title.appendChild(date);
+    li.appendChild(review_title);
+
 
     const rating = document.createElement('p');
     rating.innerHTML = `Rating: ${review.rating}`;
+    rating.className += 'review_rating';
     li.appendChild(rating);
 
     const comments = document.createElement('p');
     comments.innerHTML = review.comments;
+    comments.className += 'review_comment';
     li.appendChild(comments);
+
+    const review_body = document.createElement('div');
+    review_body.className += 'review_body';
+    review_body.appendChild(rating);
+    review_body.appendChild(comments);
+    li.appendChild(review_body);
 
     return li;
 }

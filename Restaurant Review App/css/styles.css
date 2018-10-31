@@ -105,7 +105,7 @@ nav h1 a {
 }
 
 #breadcrumb {
-    padding: 10px 40px 16px;
+    padding: 10px 42px 16px;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
@@ -275,8 +275,8 @@ nav h1 a {
 
 .inside #footer {
     bottom: 0;
-    position: absolute;
-    width: 50%;
+    /*position: absolute;*/
+    /*width: 50%;*/
 }
 
 #restaurant-name {
@@ -340,6 +340,7 @@ nav h1 a {
 #reviews-list li {
     background-color: #fff;
     border: 2px solid #f3f3f3;
+    border-radius: 2em 0 2em 0;
     display: block;
     list-style-type: none;
     margin: 0 0 30px;
