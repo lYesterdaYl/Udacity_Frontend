@@ -12,7 +12,7 @@
     }
 
     .filter-options select{
-        width: 11em;
+        /*width: 11em;*/
     }
 
     /*Restaurant Responsive*/
@@ -121,6 +121,10 @@
         padding: 3%;
     }
 
+    #breadcrumb li{
+        font-size: 1em;
+    }
+
     .inside #map-container {
         top: 5%;
         height: 25%;
@@ -131,6 +135,14 @@
         height: 18em;
     }
 
+    #restaurant-address{
+        font-size: 1.4em;
+        width: 94%;
+    }
+    #restaurant-hours td{
+        font-size: 1.1em;
+    }
+
     #restaurant-container,
     #reviews-container {
         width: 50%;
@@ -138,7 +150,7 @@
     }
 
     #reviews-container {
-        width: 100%;
+        width: 90%;
     }
 
     #reviews-list li {
@@ -177,7 +189,7 @@
     }
 
     .review_comment{
-        font-size: 1em;
+        font-size: 1.2em;
         padding-top: 5%;
     }
 
@@ -204,6 +216,11 @@
     #breadcrumb {
         width: 94%;
         padding: 3%;
+        font-size: 1.3em;
+    }
+
+    #breadcrumb li{
+        font-size: 1.1em;
     }
 
     .inside #map-container {
@@ -216,6 +233,14 @@
         height: 18em;
     }
 
+    #restaurant-address{
+        font-size: 1.5em;
+    }
+
+    #restaurant-hours td{
+        font-size: 1.2em;
+    }
+
     #restaurant-container,
     #reviews-container {
         width: 50%;
@@ -223,7 +248,7 @@
     }
 
     #reviews-container {
-        width: 100%;
+        width: 90%;
     }
 
     #reviews-list li {
