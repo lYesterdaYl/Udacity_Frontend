@@ -5,10 +5,12 @@ This Project was created for my Udacity Nanodegree. It was built for users who w
 ### Preview
 
 Desktop
+
 ![alt text](https://github.com/lYesterdaYl/Udacity_Frontend/blob/master/Restaurant%20Review%20App/preview/preview_desktop.jpg?raw=true)
 ![alt text](https://github.com/lYesterdaYl/Udacity_Frontend/blob/master/Restaurant%20Review%20App/preview/preview_desktop_2.jpg?raw=true)
 
 Mobile
+
 ![alt text](https://github.com/lYesterdaYl/Udacity_Frontend/blob/master/Restaurant%20Review%20App/preview/preview_mobile.jpg?raw=true)
 ![alt text](https://github.com/lYesterdaYl/Udacity_Frontend/blob/master/Restaurant%20Review%20App/preview/preview_mobile_2.jpg?raw=true)
 
