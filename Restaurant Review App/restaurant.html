@@ -15,11 +15,11 @@
 		<header>
 		    <!-- Beginning nav -->
 		    <nav>
-		        <h1><a href="/">Restaurant Reviews</a></h1>
+			    <h1 tabindex="1"><a href="/">Restaurant Reviews</a></h1>
 		    </nav>
 		    <!-- Beginning breadcrumb -->
-		    <ul id="breadcrumb" >
-		        <li><a href="/Udacity_Frontend/Restaurant Review App/index.html">Home</a></li>
+			<ul aria-label="breadcrumb" id="breadcrumb" >
+				<li><a aria-label="Home" tabindex="2" href="index.html">Home</a></li>
 		    </ul>
 		    <!-- End breadcrumb -->
 		    <!-- End nav -->
@@ -28,22 +28,22 @@
 		<!-- Beginning main -->
 		<main id="maincontent">
 		    <!-- Beginning map -->
-		    <section id="map-container">
-		        <div id="map"></div>
+			<section role="application" id="map-container">
+				<div aria-label="Location" id="map"></div>
 		    </section>
 		    <!-- End map -->
 		    <!-- Beginning restaurant -->
-		    <section id="restaurant-container">
-		        <h1 id="restaurant-name"></h1>
+			<section aria-label="Restaurant Info" id="restaurant-container">
+				<h2 aria-label="Restaurant Name" tabindex="3" id="restaurant-name"></h2>
 		        <img id="restaurant-img">
-		        <p id="restaurant-cuisine"></p>
-		        <p id="restaurant-address"></p>
-		        <table id="restaurant-hours"></table>
+				<p aria-label="Type of Cuisine" tabindex="3" id="restaurant-cuisine"></p>
+				<p aria-label= "Restaurant Address" id="restaurant-address"></p>
+				<table aria-label="Restaurant Hours" id="restaurant-hours"></table>
 		    </section>
 		    <!-- end restaurant -->
 		    <!-- Beginning reviews -->
 		    <section id="reviews-container">
-		        <ul id="reviews-list"></ul>
+			    <ul aria-label="Restaurant Reviews" id="reviews-list"></ul>
 		    </section>
 		    <!-- End reviews -->
 		</main>

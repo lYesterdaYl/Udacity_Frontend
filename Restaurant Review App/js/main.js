@@ -4,6 +4,17 @@ let restaurants,
 var newMap
 var markers = []
 
+/*Register Service Worker*/
+if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/Udacity_Frontend/Restaurant%20Review%20App/sw.js').then(function(reg) {
+        console.log('Successful, Service Worker Registered');
+    }).catch((e) => {
+        console.log('Failed, No Service Worker registered', e);
+    });
+}
+
+
+
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
@@ -81,6 +92,30 @@ window.initMap = () => {
         center: loc,
         scrollwheel: false
     });
+
+    // window.addEventListener('load', function () {
+    //     let nodes = document.getElementsByClassName('gm-style');
+    //     // nodes[0]['tabIndex'] = -1;
+    //     console.log(nodes);
+    //     console.log(nodes.length);
+    //     console.log(nodes[0]);
+    //     let sub_nodes = nodes[0].children;
+    //     console.log("sub node = ", sub_nodes)
+    //     for(let i=0; i<sub_nodes.length; i++) {
+    //         console.log("sub nodes tab Index = ", sub_nodes[i]['tabIndex']);
+    //         sub_nodes[i]['tabIndex'] = -1;
+    //         console.log("sub nodes tab Index = ", sub_nodes[i]['tabIndex']);
+    //
+    //     }
+    //     console.log(nodes);
+    //
+    // });
+    //
+    // for(let i=0; i<nodes.length; i++) {
+    //     nodes[i]['tabIndex'] = -1;
+    // }
+    // console.log(nodes);
+
     updateRestaurants();
 }
 
@@ -144,9 +179,10 @@ createRestaurantHTML = (restaurant) => {
     const image = document.createElement('img');
     image.className = 'restaurant-img';
     image.src = DBHelper.imageUrlForRestaurant(restaurant);
+    image.alt = restaurant.name;
     li.append(image);
 
-    const name = document.createElement('h1');
+    const name = document.createElement('h2');
     name.innerHTML = restaurant.name;
     li.append(name);
 
@@ -161,6 +197,7 @@ createRestaurantHTML = (restaurant) => {
     const more = document.createElement('a');
     more.innerHTML = 'View Details';
     more.href = DBHelper.urlForRestaurant(restaurant);
+    more.tabindex = '3';
     li.append(more)
 
     return li
