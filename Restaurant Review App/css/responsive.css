@@ -1,6 +1,127 @@
 
 /*Responsive for Mobile*/
-@media screen and (min-width: 281px) and (max-width: 500px) {
+@media screen and (min-width: 200px) and (max-width: 340px) {
+    #restaurants-list li{
+        width: 15em;
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 371px) {
+    #restaurants-list li{
+        width: 17em;
+    }
+}
+@media screen and (max-width: 371px) {
+    /*Index Responsive*/
+    nav h1 a{
+        font-size: 0.6em;
+        letter-spacing: 0.6em;
+    }
+
+    #map{
+        height: 18em;
+    }
+
+    .filter-options{
+        height: 130px;
+        text-align: center;
+    }
+    .filter-options select{
+        width: 10em;
+    }
+
+
+
+    /*Restaurant Responsive*/
+    .inside{
+        display: block;
+    }
+
+    #breadcrumb {
+        width: 94%;
+        padding: 3%;
+    }
+
+    .inside header {
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .inside #map-container {
+        height: 21em;
+        position: relative;
+        width: 100%;
+        top: 0px;
+    }
+
+    .inside #restaurant-img{
+        border-radius: 2em;
+    }
+
+    .inside #map {
+        background-color: #ccc;
+        height: 100%;
+        width: 100%;
+    }
+
+    #restaurant-container,
+    #reviews-container {
+        width: 89%;
+        padding: 1% 5%;
+    }
+
+    #reviews-list li {
+        padding: 0 0 12px;
+    }
+
+    .review_title{
+        background-color: #252831;
+        display: flex;
+        margin: auto;
+        padding: 1.5em;
+        width: 100%;
+    }
+
+    .review_name{
+        width: 60%;
+        font-size: 1.7em;
+    }
+
+    .review_date{
+        width: 40%;
+    }
+    .review_name, .review_date{
+        /*padding: 1em;*/
+        color: #ffffff;
+        /*font-size: 1em;*/
+    }
+
+    .review_rating{
+        display: inline;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #ff9d09;
+        padding: 2%;
+        border-radius: 0.5em;
+        margin-top: 20%;
+    }
+
+    .review_comment{
+        padding-top: 5%;
+    }
+
+    .review_body{
+        padding: 5%;
+    }
+
+    .inside #footer {
+        padding: 3%;
+    }
+}
+
+@media screen and (min-width: 372px) and (max-width: 500px) {
     /*Index Responsive*/
     nav h1 a{
         font-size: 0.6em;
@@ -12,7 +133,7 @@
     }
 
     .filter-options select{
-        /*width: 11em;*/
+        width: 10em;
     }
 
     /*Restaurant Responsive*/
