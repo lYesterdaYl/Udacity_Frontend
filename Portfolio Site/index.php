@@ -107,11 +107,13 @@ if($ip != "192.168.1.1"){
                         </div>
 
                         <div class="section_content_date">
-                            Nov 2018<br>
+	                        Aug 2018- Nov 2018<br>
                         </div>
 
                         <div class="section_content_info">
-                            Front-End Web Developer Nanodegree Program<br>
+                            Front-End Web Developer Nanodegree Program(4 months program, completed in 2.5 months)<br>
+	                        <a href="https://confirm.udacity.com/XDGLKMUK">Certificate of Completion</a><br>
+
                         </div>
 
                     </div>
@@ -216,7 +218,8 @@ if($ip != "192.168.1.1"){
 
 		                <div class="section_content_info">
 			                <a href="https://github.com/lYesterdaYl/Udacity_Frontend/tree/master/Restaurant%20Review%20App">Github</a><br>
-			                • Developed a Restaurant Review App that allows users to browse nearby restaurant user reviews and rating with responsive design<br>
+			                <a href="http://97.90.19.113/Restaurant_Review_App/">Online Version</a><br>
+			                • Developed a Restaurant Review App that allows users to browse nearby restaurant user reviews and rating with responsive design(Mobile & Desktop)<br>
 			                • Implemented with service worker which improves user experience while offline or having slow network.<br>
 			                • Skill: HTML, JavaScript, CSS, Accessibility, Service Worker<br>
 		                </div>
