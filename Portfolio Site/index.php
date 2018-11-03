@@ -205,9 +205,26 @@ if($ip != "192.168.1.1"){
                         <br>PROJECTS
                     </h2>
 
+	                <div class="section_content">
+		                <div class="section_content_title">
+			                Restaurant Review App
+		                </div>
+
+		                <div class="section_content_date">
+			                Oct 2018 – Nov 2018<br>
+		                </div>
+
+		                <div class="section_content_info">
+			                <a href="https://github.com/lYesterdaYl/Udacity_Frontend/tree/master/Restaurant%20Review%20App">Github</a><br>
+			                • Developed a Restaurant Review App that allows users to browse nearby restaurant user reviews and rating with responsive design<br>
+			                • Implemented with service worker which improves user experience while offline or having slow network.<br>
+			                • Skill: HTML, JavaScript, CSS, Accessibility, Service Worker<br>
+		                </div>
+	                </div>
+
                     <div class="section_content">
                         <div class="section_content_title">
-                            File System
+	                        <br>File System
                         </div>
 
                         <div class="section_content_date">
