@@ -116,6 +116,15 @@ if($ip != "192.168.1.1"){
 
                         </div>
 
+	                    <div class="section_content_date">
+		                    <br>Nov 2018- Present<br>
+	                    </div>
+
+	                    <div class="section_content_info">
+		                    Full-Stack Web Developer Nanodegree Program<br>
+
+	                    </div>
+
                     </div>
 
                 </section>
