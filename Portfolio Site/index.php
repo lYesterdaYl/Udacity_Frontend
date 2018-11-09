@@ -218,7 +218,24 @@ if($ip != "192.168.1.1"){
 
 	                <div class="section_content">
 		                <div class="section_content_title">
-			                Restaurant Review App
+			                Wumpus World AI
+		                </div>
+
+		                <div class="section_content_date">
+			                Oct 2018 – Present<br>
+		                </div>
+
+		                <div class="section_content_info">
+			                <a href="https://github.com/lYesterdaYl/W_World">Github</a><br>
+			                • Developed and implemented an AI for a classic game calls Wumpus World.<br>
+			                • Prototype AI can score average of 230 points, which is 30 points more than the project full credit requirement.<br>
+			                • Skill: Python<br>
+		                </div>
+	                </div>
+
+	                <div class="section_content">
+		                <div class="section_content_title">
+			                <br>Restaurant Review App
 		                </div>
 
 		                <div class="section_content_date">
