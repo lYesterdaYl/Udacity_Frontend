@@ -141,7 +141,8 @@ if($ip != "192.168.1.1"){
                             •	Python: 1 year(experienced)<br>
                             •	PHP: 2 years (proficient)<br>
                             •	MySQL: 1 years(experienced)<br>
-                            •	Data Caching: 3 months(experienced)<br>
+	                        •	Unix Shell Command: 6 months(experienced)<br>
+	                        •	Data Caching: 3 months(experienced)<br>
                         </div>
 
                         <div class="section_content_title">
@@ -187,7 +188,7 @@ if($ip != "192.168.1.1"){
                             Website: http://www.ieasygo.cn/<br>
                             •	Updated and maintained EasyGo unmanned convenience store Amazed UI framework management system.<br>
                             •	Designed and developed frontend application and many backend APIs for EasyGo WeBox unmanned fridge project.<br>
-                            •	Solely designed and developed frontend application, countless backend API and management system for EasyGo Self-Service                                 Market project.<br>
+                            •	Solely designed and developed frontend application, countless backend API and management system for EasyGo Self-Service Market project.<br>
                             •	Updated and developed APIs for EasyGo Laravel framework new management system.<br>
                         </div>
                     </div>
