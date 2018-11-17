@@ -140,7 +140,7 @@ if($ip != "192.168.1.1"){
                         <div class="section_content_info">
                             •	Python: 1 year(experienced)<br>
                             •	PHP: 2 years (proficient)<br>
-                            •	MySQL: 1 years(experienced)<br>
+                            •	SQL(MySQL, Postgresql): 1 years(experienced)<br>
 	                        •	Unix Shell Command: 6 months(experienced)<br>
 	                        •	Data Caching: 3 months(experienced)<br>
                         </div>
@@ -236,6 +236,38 @@ if($ip != "192.168.1.1"){
 
 	                <div class="section_content">
 		                <div class="section_content_title">
+			                <br>Process Scheduling Algorithms
+		                </div>
+
+		                <div class="section_content_date">
+			                Nov 2018 – Present<br>
+		                </div>
+
+		                <div class="section_content_info">
+			                <a href="https://github.com/lYesterdaYl/Process-Scheduling-Algorithms">Github</a><br>
+			                • Developed a program to compare the performance of several process scheduling algorithms.<br>
+			                • Skill: Java<br>
+		                </div>
+	                </div>
+
+	                <div class="section_content">
+		                <div class="section_content_title">
+			                <br>Logs Analysis
+		                </div>
+
+		                <div class="section_content_date">
+			                Nov 2018 – Nov 2018<br>
+		                </div>
+
+		                <div class="section_content_info">
+			                <a href="https://github.com/lYesterdaYl/Udacity_FullStack/tree/master/Logs%20Analysis">Github</a><br>
+			                • Developed a program that prints out data according to requirement.<br>
+			                • Skill: Python, Postgresql<br>
+		                </div>
+	                </div>
+
+	                <div class="section_content">
+		                <div class="section_content_title">
 			                <br>Restaurant Review App
 		                </div>
 
@@ -320,7 +352,7 @@ if($ip != "192.168.1.1"){
                             <a href="http://97.90.19.113/Portfolio_Site/">Online Version</a><br>
                             •	Developed and Designed a personal website for Udacity NanoDegree Project<br>
                             •	Developed page with responsive design for phone, tablet, and desktop<br>
-                            •	Used PHP to keep track of vister's information upon visiting the website<br>
+                            •	Used PHP and MySQL to keep track of visitor's information upon visiting the website<br>
                             •	Skill: PHP, MySQL, HTML, CSS<br>
                         </div>
                     </div>
