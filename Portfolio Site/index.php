@@ -240,7 +240,7 @@ if($ip != "192.168.1.1"){
 		                </div>
 
 		                <div class="section_content_date">
-			                Nov 2018 – Present<br>
+			                Nov 2018 – Nov 2018<br>
 		                </div>
 
 		                <div class="section_content_info">
