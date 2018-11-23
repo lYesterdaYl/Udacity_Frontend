@@ -236,6 +236,22 @@ if($ip != "192.168.1.1"){
 
 	                <div class="section_content">
 		                <div class="section_content_title">
+			                <br>Item Catalog
+		                </div>
+
+		                <div class="section_content_date">
+			                Nov 2018 – Present<br>
+		                </div>
+
+		                <div class="section_content_info">
+			                <a href="https://github.com/lYesterdaYl/Process-Scheduling-Algorithms">Github</a><br>
+			                • Developed a webpage management application for user to modify item information in the database<br>
+			                • Skill: Python, HTML, JavaScript, MySQL<br>
+		                </div>
+	                </div>
+
+	                <div class="section_content">
+		                <div class="section_content_title">
 			                <br>Process Scheduling Algorithms
 		                </div>
 
