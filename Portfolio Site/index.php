@@ -244,7 +244,7 @@ if($ip != "192.168.1.1"){
 		                </div>
 
 		                <div class="section_content_info">
-			                <a href="https://github.com/lYesterdaYl/Process-Scheduling-Algorithms">Github</a><br>
+			                <a href="https://github.com/lYesterdaYl/Udacity_FullStack/tree/master/Item%20Catalog">Github</a><br>
 			                • Developed a webpage management application for user to modify item information in the database<br>
 			                • Skill: Python, HTML, JavaScript, MySQL<br>
 		                </div>
