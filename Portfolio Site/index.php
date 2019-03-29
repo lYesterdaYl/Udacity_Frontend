@@ -74,7 +74,7 @@ if($ip != "192.168.1.1"){
 
                 </div>
                 <div class="header_self_description">
-                    <p>Hi! Welcome to my Portfolio website. I am a former core PHP Developer in an unmanned convinence store company in China. I have worked and finished multiple projects such as, unmanned Radio Frequency Identification & image identification fridge & a solo project on self-service market during my previous work. I am currently a UC Irvine student who will graduate next year, and I have completed the Front-End Web Developer Program with Udacity. I completed this 4 months degree in only 2 months. As a graduate from the degree, I am confident on completing most Front-End Tasks. I am currently taking the Full-Stack Developer program with Udacity, so I can have deeper knowledge in web development with various programming languages and skills.
+                    <p>Hi! Welcome to my Portfolio website. I am a former core PHP Developer in an unmanned convinence store company in China. I have worked and finished multiple projects such as, unmanned Radio Frequency Identification & image identification fridge & a solo project on self-service market during my previous work. I am currently a UC Irvine student who will graduate next year, and I have completed the Front-End and Full-Stack Web Developer Program with Udacity(2 months each). As a graduate from the degree, I am confident on completing most Front-End and Back-End Tasks.
                     </p>
                 </div>
             </div>
@@ -111,17 +111,18 @@ if($ip != "192.168.1.1"){
                         </div>
 
                         <div class="section_content_info">
-                            Front-End Web Developer Nanodegree Program(4 months program, completed in 2.5 months)<br>
+                            Front-End Web Developer Nanodegree Program<br>
 	                        <a href="https://confirm.udacity.com/XDGLKMUK">Certificate of Completion</a><br>
 
                         </div>
 
 	                    <div class="section_content_date">
-		                    <br>Nov 2018- Present<br>
+		                    <br>Nov 2018- Jan 2019<br>
 	                    </div>
 
 	                    <div class="section_content_info">
 		                    Full-Stack Web Developer Nanodegree Program<br>
+		                    <a href="https://confirm.udacity.com/HAAV4GFK">Certificate of Completion</a><br>
 
 	                    </div>
 
@@ -135,36 +136,17 @@ if($ip != "192.168.1.1"){
                     </h2>
                     <div class="section_content">
                         <div class="section_content_title">
-                            Back-End
+                            Technical Skill
                         </div>
                         <div class="section_content_info">
-                            •	Python: 1 year(experienced)<br>
-                            •	PHP: 2 years (proficient)<br>
-                            •	SQL(MySQL, Postgresql): 1 years(experienced)<br>
-	                        •	Unix Shell Command: 6 months(experienced)<br>
-	                        •	Data Caching: 3 months(experienced)<br>
+                            PHP, Python, SQL, Redis, Memcached, JavaScript, HTML, CSS, WeChat Mini Program, C++, Java, Git, Unit Testing, Flask, SqlAlchemy, Django, Scrapy, Linux Command, BootStrap, Jquery
                         </div>
 
                         <div class="section_content_title">
-                            Front-End
+                            <br>Languages
                         </div>
                         <div class="section_content_info">
-                            •	WeChat Mini Program: 1 year(experienced)<br>
-                            •	HTML: 1 years(experienced)<br>
-                            •	CSS: 1 years(experienced)<br>
-                            •	Java Script: 1 year(experienced)<br>
-                        </div>
-
-                        <div class="section_content_title">
-                            Other
-                        </div>
-
-                        <div class="section_content_info">
-                            •	Git: 1 years(experienced)<br>
-                            •	C++: 6 months(experienced)<br>
-                            •	Java: 6 months(experienced)<br>
-                            •	Unit Testing: 3 months(experienced)<br>
-                            •	Swift: 1 months(basic)<br>
+                            Mandarin Chinese, Cantonese Chinese
                         </div>
 
                     </div>
@@ -184,12 +166,12 @@ if($ip != "192.168.1.1"){
                         </div>
 
                         <div class="section_content_info">
-                            Software Designer, PHP Developer(Full-time)<br>
+                            Software Engineer<br>
                             Website: http://www.ieasygo.cn/<br>
                             •	Updated and maintained EasyGo unmanned convenience store Amazed UI framework management system.<br>
                             •	Designed and developed frontend application and many backend APIs for EasyGo WeBox unmanned fridge project.<br>
                             •	Solely designed and developed frontend application, countless backend API and management system for EasyGo Self-Service Market project.<br>
-                            •	Updated and developed APIs for EasyGo Laravel framework new management system.<br>
+                            •	Improved and optimized management system performance by 50%.<br>
                         </div>
                     </div>
 
@@ -204,7 +186,7 @@ if($ip != "192.168.1.1"){
                         </div>
 
                         <div class="section_content_info">
-                            PHP Developer Intern<br>
+                            Software Engineer<br>
                             •	Developed backend APIs for an IOS bank assistant app.<br>
                             •	Updated and maintained management system's various API.<br>
                         </div>
@@ -217,13 +199,64 @@ if($ip != "192.168.1.1"){
                         <br>PROJECTS
                     </h2>
 
+                    <div class="section_content">
+                        <div class="section_content_title">
+                            Movie Search Engine App
+                        </div>
+
+                        <div class="section_content_date">
+                            Jan 2019 – Mar 2019<br>
+                        </div>
+
+                        <div class="section_content_info">
+                            <a href="https://github.com/lYesterdaYl/Movie_Search_Engine">Github</a><br>
+                            • Using imdb movie data to implement an inverted index using MySQL.<br>
+                            • Deploy the search engine on a flask server for user to find movie data with their query.<br>
+                            • Reached 90% result accuracy with fast query speed.<br>
+                            • Skill: HTML, Python, Flask, AWS, MySQL, SQLalchemy, Scrapy<br>
+                        </div>
+                    </div>
+
 	                <div class="section_content">
 		                <div class="section_content_title">
-			                Wumpus World AI
+                            <br>Item Catalog
 		                </div>
 
 		                <div class="section_content_date">
-			                Oct 2018 – Present<br>
+			                Nov 2018 – Jan 2019<br>
+		                </div>
+
+		                <div class="section_content_info">
+			                <a href="https://github.com/lYesterdaYl/Udacity_FullStack/tree/master/Item%20Catalog">Github</a><br>
+			                • Developed a webpage management application for user to modify item information in the database<br>
+			                • Skill: Python, HTML, JavaScript, MySQL, Flask<br>
+		                </div>
+	                </div>
+
+	                <div class="section_content">
+		                <div class="section_content_title">
+			                <br>WebReg_Collector
+		                </div>
+
+		                <div class="section_content_date">
+			                Dec 2018 – Dec 2018<br>
+		                </div>
+
+		                <div class="section_content_info">
+			                <a href="https://github.com/lYesterdaYl/WebReg_Collector">Github</a><br>
+			                • Developed a sample web crawler that collect class available information from class schedule website<br>
+			                • Implemented function to notify user through email when there is available spot for a class<br>
+			                • Skill: PHP, MySQL<br>
+		                </div>
+	                </div>
+
+	                <div class="section_content">
+		                <div class="section_content_title">
+			                <br>Wumpus World AI
+		                </div>
+
+		                <div class="section_content_date">
+			                Oct 2018 – Nov 2018<br>
 		                </div>
 
 		                <div class="section_content_info">
@@ -231,22 +264,6 @@ if($ip != "192.168.1.1"){
 			                • Developed and implemented an AI for a classic game calls Wumpus World for my AI Project class.<br>
 			                • Prototype AI can score average of 230 points, which is 30 points more than the project full credit requirement.<br>
 			                • Skill: Python<br>
-		                </div>
-	                </div>
-
-	                <div class="section_content">
-		                <div class="section_content_title">
-			                <br>Item Catalog
-		                </div>
-
-		                <div class="section_content_date">
-			                Nov 2018 – Present<br>
-		                </div>
-
-		                <div class="section_content_info">
-			                <a href="https://github.com/lYesterdaYl/Udacity_FullStack/tree/master/Item%20Catalog">Github</a><br>
-			                • Developed a webpage management application for user to modify item information in the database<br>
-			                • Skill: Python, HTML, JavaScript, MySQL<br>
 		                </div>
 	                </div>
 
@@ -293,7 +310,7 @@ if($ip != "192.168.1.1"){
 
 		                <div class="section_content_info">
 			                <a href="https://github.com/lYesterdaYl/Udacity_Frontend/tree/master/Restaurant%20Review%20App">Github</a><br>
-			                <a href="http://97.90.19.113/Restaurant_Review_App/">Online Version</a><br>
+			                <a href="www.ordinaryzone.com/Restaurant_Review_App/">Online Version</a><br>
 			                • Developed a Restaurant Review App that allows users to browse nearby restaurant user reviews and rating with responsive design(Mobile & Desktop)<br>
 			                • Implemented with service worker which improves user experience while offline or having slow network.<br>
 			                • Skill: HTML, JavaScript, CSS, Accessibility, Service Worker<br>
@@ -328,7 +345,7 @@ if($ip != "192.168.1.1"){
 
                         <div class="section_content_info">
                             <a href="https://github.com/lYesterdaYl/Udacity_Frontend/tree/master/Classic%20Arcade%20Game%20Clone">Github</a><br>
-                            <a href="http://97.90.19.113/Classic_Arcade_Game/">Online Version</a><br>
+                            <a href="www.ordinaryzone.com/Classic_Arcade_Game/">Online Version</a><br>
                             • Developed a classical game that allows players to collect gems on the road where bugs can kill player and reset the game. Player wins if they collected enough gems.<br>
                             • The game was developed with Object-Oriented-Programming within 2 days.<br>
                             • Skill: JavaScript, HTML5 Canvas, BootStrap, Jquery, HTML, CSS<br>
@@ -346,7 +363,7 @@ if($ip != "192.168.1.1"){
 
                         <div class="section_content_info">
                             <a href="https://github.com/lYesterdaYl/Udacity_Frontend/tree/master/Memory%20Game">Github</a><br>
-                            <a href="http://97.90.19.113/Memory_Game/">Online Version</a><br>
+                            <a href="www.ordinaryzone.com/Memory_Game/">Online Version</a><br>
                             •	Developed and Designed a memory game for Udacity NanoDegree Project<br>
                             •	Developed functions with JavaScript to perform feature<br>
                             •	The game has responsive design across phone, tablet, and desktop<br>
@@ -365,7 +382,7 @@ if($ip != "192.168.1.1"){
 
                         <div class="section_content_info">
                             <a href="https://github.com/lYesterdaYl/Udacity_Frontend/tree/master/Portfolio%20Site">Github</a><br>
-                            <a href="http://97.90.19.113/Portfolio_Site/">Online Version</a><br>
+                            <a href="www.ordinaryzone.com/Portfolio_Site/">Online Version</a><br>
                             •	Developed and Designed a personal website for Udacity NanoDegree Project<br>
                             •	Developed page with responsive design for phone, tablet, and desktop<br>
                             •	Used PHP and MySQL to keep track of visitor's information upon visiting the website<br>
@@ -565,7 +582,7 @@ if($ip != "192.168.1.1"){
 
             <footer>
                 <ul>
-                    <li>Contact me: zhiyuad@easygo.mobi</li>
+                    <li>Contact me: dzyoliver@gmail.com</li>
                     <li><a href="https://github.com/lYesterdaYl">Find me on GitHub</a></li>
                 </ul>
             </footer>
